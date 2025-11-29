@@ -1,6 +1,9 @@
 MAINTENANCE_AGENCY_ID,CODE,NAME,DESCRIPTION
-EBA,EBA,European Banking Authority,European Banking Authority
-ECB,ECB,SDD team,SDD reference dictionary
-ECB2,ECB2,SHS team,SHS team
-ECB6,ECB6,SUP Division,Supervisory Statistics Division
-ECB14,ECB14,Climate Change Datasets,
+EBA,EBA,EBA,European Banking Authority
+ECB,ECB,ECB,
+ECB14,ECB14,ECB14,
+ECB2,ECB2,ECB2,SHS team
+ECB6,ECB6,ECB6,Supervisory Statistics Division
+NODE,NODE,NODE,
+REF,REF,REF,
+SDD_DOMAIN,SDD_DOMAIN,SDD_DOMAIN,

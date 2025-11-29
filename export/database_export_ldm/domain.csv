@@ -1,315 +1,251 @@
 MAINTENANCE_AGENCY_ID,DOMAIN_ID,NAME,IS_ENUMERATED,DESCRIPTION,DATA_TYPE,CODE,FACET_ID,IS_REFERENCE
-ECB,TYP_PRDNTL_ITM,Type of prudential item,true,Type of prudential item,,TYP_PRDNTL_ITM,,true
-ECB,RL,Real,false,Real,number,RL,,true
-ECB,DT,Date,false,Date,date,DT,,true
-ECB,BLN,Boolean,true,Boolean,string(20),BLN,,true
-ECB,STTS,Status,true,Status,,STTS,,true
-ECB,STRNG,String,false,String,string,STRNG,,true
-ECB,INTGR,Integer,false,Integer,integer,INTGR,,true
-ECB,MNTRY,Monetary,false,Monetary,number,MNTRY,,true
-ECB,CRRNCY,Currencies,true,Currencies,string(20),CRRNCY,,true
-ECB,FRQNCY,Frequency,true,Frequency,integer(6),FRQNCY,,true
-ECB,TYP_ID,Group/Entity ID type,true,Group/Entity ID type,,TYP_ID,,true
-ECB,GRP_TYP,Type of groups,true,Type of groups,,GRP_TYP,,true
-ECB,CRDT_QLTY,Credit quality,true,Credit quality,integer(6),CRDT_QLTY,,true
-ECB,SCRTY_LVL,Security level,true,Security level,,SCRTY_LVL,,true
-ECB,SNRTY_TYP,Domain for instrument seniority type,true,Domain for instrument seniority type,integer(6),SNRTY_TYP,,true
-ECB,TM_INTRVL,Time interval,true,Time interval,,TM_INTRVL,,true
-ECB,EXPSR_CLSS,Exposure classification,true,Exposure classification,,EXPSR_CLSS,,true
-ECB,RPRTNG_BSS,Reporting basis code list,true,Indicates the underlying reporting basis for the security,,RPRTNG_BSS,,true
-ECB,GGRPHCL_ARS,Geographical Area,true,Geographical Area,string(20),GGRPHCL_ARS,,true
-ECB,RCGNTN_STTS,Recognition,true,Recognition,integer(6),RCGNTN_STTS,,true
-ECB,FRBRNC_STTS,Forbearance status,true,Forbearance status,integer(6),FRBRNC_STTS,,true
-ECB,TYP_INSTRMNT,Type of instrument,true,Type of instrument,integer(6),TYP_INSTRMNT,,true
-ECB,SRC_ENCMBRNC,Encumbrance,true,Encumbrance,integer(6),SRC_ENCMBRNC,,true
-ECB,ECNMC_ACTVTY,Nomenclature of Economic Activities (NACE) codes,true,Nomenclature of Economic Activities (NACE) codes,string(20),ECNMC_ACTVTY,,true
-ECB,PRDNTL_PRTFL,Prudential portfolio,true,Prudential portfolio,integer(6),PRDNTL_PRTFL,,true
-ECB,ISSR_STTS_DTL,Domain for details on the issuer status,true,Domain for details on the issuer status,integer(6),ISSR_STTS_DTL,,true
-ECB,INSTTTNL_SCTR,Institutional sectors,true,Institutional sectors,string(20),INSTTTNL_SCTR,,true
-ECB,SCRTY_RNK_LVL,Security rank level,true,Security rank level,,SCRTY_RNK_LVL,,true
-ECB,RPRTNG_INSTTTN,Source,true,Source,,RPRTNG_INSTTTN,,true
-ECB,ACCNTNG_FRMWRK,Accounting framework,true,Accounting framework,integer(6),ACCNTNG_FRMWRK,,true
-ECB,SCRTY_GRNT_LVL,Security Guarantee level,true,Security Guarantee level,,SCRTY_GRNT_LVL,,true
-ECB,SCRTY_STTS_DTL,Domain for details on the security status,true,Domain for details on the security status,integer(6),SCRTY_STTS_DTL,,true
-ECB,TYP_INSTRMNT_ID,Identifier type code list,true,The type of the code used to ,,TYP_INSTRMNT_ID,,true
-ECB,TYP_ASST_SCRTSTN,Type of asset provided as security,true,Type of asset provided as security,,TYP_ASST_SCRTSTN,,true
-ECB,ACCNTNG_CLSSFCTN,Accounting classification,true,Accounting classification,integer(6),ACCNTNG_CLSSFCTN,,true
-ECB,PRMRY_ASST_CLSSFCTN,Classification of the instrument,true,Securities classified according to their asset type.,,PRMRY_ASST_CLSSFCTN,,true
-ECB,APPRCH_PRDNTL_PRPSS,Approach for prudential purposes,true,Approach for prudential purposes,,APPRCH_PRDNTL_PRPSS,,true
-ECB,INSTTTNL_SCTR_CNTRL,Institutional sector control,true,Institutional sector control,integer(6),INSTTTNL_SCTR_CNTRL,,true
-ECB,IMPRMNT_ASSSSMNT_MTHD,Impairment assessment method,true,"The method by which the impairment is assessed, if the instrument is subject to impairment in accordance with applied accounting standards. Collective and individual methods are distinguished.",integer(6),IMPRMNT_ASSSSMNT_MTHD,,true
-ECB,ERLY_RDMPTN_INCLSN_INDCTR,Domain for early redempions inclusion indicator,true,Domain for early redempions inclusion indicator,integer(6),ERLY_RDMPTN_INCLSN_INDCTR,,true
-ECB,PRDNTL_CNS_SCP_ISSR_INDCTR,Domain for issuer part of the group for Prudential scope indicator,true,Domain for issuer part of the group for Prudential scope indicator,integer(6),PRDNTL_CNS_SCP_ISSR_INDCTR,,true
-ECB,ACCNTG_CNS_SCP_ISSR_INDCTR,Domain for issuer part of the group for Accounting scope indicator,true,Domain for issuer part of the group for Accounting scope indicator,integer(6),ACCNTG_CNS_SCP_ISSR_INDCTR,,true
-ECB,ACCRD_INTRST_MRKT_VL_INDCTR,Domain for accrued interests for market values indicator,true,Domain for accrued interests for market values indicator,integer(6),ACCRD_INTRST_MRKT_VL_INDCTR,,true
-ECB,CNSLDTN_SCP,Scope of consolidation,true,Scope of consolidation,,CNSLDTN_SCP,,true
-ECB,STFF_TYP,Type of staff,true,Type of staff,integer(6),STFF_TYP,,true
-ECB,RCLSSFD_PRFT_LSS_INDCTR,To be reclassified to profit or loss,true,To be reclassified to profit or loss,integer(6),RCLSSFD_PRFT_LSS_INDCTR,,true
-ECB,VLTN_RL,Accounting portfolio valuation rules domain,true,Accounting portfolio valuation rules domain,integer(6),VLTN_RL,,true
-ECB,SHRT_PSTN_INDCTR,Short position,true,Short position domain,integer(6),SHRT_PSTN_INDCTR,,true
-ECB,HLD_TRDNG_INDCTR,Held for trading,true,Held for trading domain,integer(6),HLD_TRDNG_INDCTR,,true
-ECB,EXPNS_TYP,Type of expense,true,Type of expense,integer(6),EXPNS_TYP,,true
-ECB,TYP_ACTVTY,Type of activity,true,Type of activity,,TYP_ACTVTY,,true
-ECB,FLW_RSN,Reason/source of the flow,true,Reason/source of the flow,integer(6),FLW_RSN,,true
-ECB,PRCHSD_ORGNTD,Purchased or originated,true,Purchased or originated,,PRCHSD_ORGNTD,,true
-ECB,SFTWR_ASST_INDCTR,Software assets indicator,true,,,SFTWR_ASST_INDCTR,,true
-ECB,HLD_MTRTY_INDCTR,Held to maturity,true,Held to maturity domain,integer(6),HLD_MTRTY_INDCTR,,true
-ECB,PSTN_INSTRMNT,Position in the instrument,true,Position in the instrument,,PSTN_INSTRMNT,,true
-ECB,HDG_INSTRMNT,Hedged or hedging instrument,true,Hedged or hedging instrument,,HDG_INSTRMNT,,true
-ECB,FLW_DRCTN,Flow direction,true,Flow direction,integer(6),FLW_DRCTN,,true
-ECB,BLN_STRNG,Boolean string,false,"A Domain that allows string values of TRUE and FALSE only.
-Please note that this Domain's purpose is the mapping of non-reference boolean Domains that are not enumerated, e.g. EBA_Boolean.",,BLN_STRNG,BLN_STRNG,true
-ECB,RLTNSHP,Relationship,true,Relationship between entities.,,RLTNSHP,,true
-ECB,CRDT_RTNG_AGNCY,Credit rating agency,true,"Credit rating agency used in Asset encumbrance.
-See EBA ITS on Asset encumbrance, 5.2.3. Instructions concerning specific columns, External credit rating on covered bond (090-140), As per credit rating agencies' methodology to maintain current external credit rating on covered bond (230-250).",,CRDT_RTNG_AGNCY,,true
-ECB,TYP_MRKT,Type of market,true,Type of market,,TYP_MRKT,,true
-ECB,LVL_RPRTNG,Level of reporting requested in the specific row of template,true,Level of reporting requested in the specific row of template,,LVL_RPRTNG,,true
-ECB,CNTNGNT_SCNR,Contingent scenario/Assumptions used,true,Contingent scenario/Assumptions used,,CNTNGNT_SCNR,,true
-ECB,STTTRY_CVRD_BND_RGM,Statutory covered bond regime,true,"Statutory covered bond regime information used in Asset encumbrance.
-See EBA ITS on Asset encumbrance, 5.2.3. Instructions concerning specific columns, As per the relevant statutory covered bond regime (220).",,STTTRY_CVRD_BND_RGM,,true
-ECB,AE_ITM,Asset encumbrance item,true,Domain comprising Members that allows to distinguish between AE (matching) liability information and AE (underlying) asset / collateral information.,,AE_ITM,,true
-ECB,RTND_INSTRMNT,Retained or bought back instrument,true,"Domain covereing the members: Retained or bought back instrument, Not retained or bought back instrument, Retained and not retained instruments, Not applicable.",,RTND_INSTRMNT,,true
-ECB,PHASE,Phase,true,The phase in the BIRD process.,,PHASE,,true
-ECB,TYP_RL,Type of role,true,Type of role,string(1),TYP_RL,,true
-ECB,TYP_FCT,Type of facet,false,Type of facet,string(20),TYP_FCT,,true
-ECB,CRDNLTY,Cardinality,true,Specifies the cardinality of relationship,string(20),CRDNLTY,,true
-ECB,CUBE_TYPE,Cube type,true,Specifies the type of cube as part of the data production process.,string(50),CUBE_TYPE,,true
-ECB,TYP_MPPNG,Type of mapping,true,Type of mapping,string(1),TYP_MPPNG,,true
-ECB,TYP_DMNSN,Type of dimension,true,Type of dimension,string(1),TYP_DMNSN,,true
-ECB,TYP_FCT_VL,Type of facet value,true,Type of facet value,string(50),TYP_FCT_VL,,true
-ECB,TYPE_OF_SCHEME,Type of scheme,true,The type of scheme in the BIRD process.,,TYPE_OF_SCHEME,,true
-ECB,DATA_TYPE_SIMPLIFIED,Simplified data type,true,,,DATA_TYPE_SIMPLIFIED,,true
-ECB,TYPE_OF_RELATIONSHIP,Type of relationship,true,The type of relationship between entities.,,TYPE_OF_RELATIONSHIP,,true
-ECB,TYPE_OF_TRANSFORMATION,TYPE_OF_TRANSFORMATION,true,The type of transformation.,,TYPE_OF_TRANSFORMATION,,true
-EBA,EBA_AS,Accounting standard,true,The accounting standard used to prepare figures or reports,,AS,,false
-EBA,EBA_CB,Covered bond,false,Name or unambiguous abbreviation of a covered bond issuing entity and the designation of a covered bond,String,CB,,false
-EBA,EBA_LE,Legal entity,false,"An association, corporation, partnership, proprietorship, trust, or individual that has legal standing in the eyes of law",String,LE,,false
-EBA,EBA_ST,Securitisation structure,true,Tranche of the exposure in the securitisation structure,,ST,,false
-EBA,EBA_SY,Security,false,"Financial instrument that represents: an ownership position in a publicly-traded corporation (stock), a creditor relationship with governmental body or a corporation (bond), or rights to ownership as represented by an option.",String,SY,,false
-EBA,EBA_DT,Date,false,Date,Date,DT,,false
-EBA,EBA_STRNG,STRING,false,,,STRNG,,false
-EBA,EBA_CONS_LEVEL,Consolidation level,true,,,CONS_LEVEL,,false
-EBA,EBA_String,String,false,String,String,String,,false
-EBA,EBA_Monetary,Monetary,false,Monetary,Monetary,Monetary,,false
-EBA,EBA_Percent,Percent,false,Percent,Percent,Percent,,false
-EBA,EBA_AP,Approach,true,Approach used for the calculation of capital requirements (or exposure value in LR),,AP,,false
-EBA,EBA_OF,Computability in own funds,true,Specifies the way in which the item computes in own funds,,OF,,false
-EBA,EBA_IM,Impairment,true,"Concepts related with monitoring credit quality of financial assets and off-balance sheet items (e.g. past due, impaired, defaulted)",,IM,,false
-EBA,EBA_Integer,Integer,false,Integer,Integer,Integer,,false
-EBA,EBA_CT,Counterparty,true,Party other than the reporting institution in a contract or transaction.,,CT,,false
-EBA,EBA_Decimal,Decimal,false,Decimal,Decimal,Decimal,,false
-EBA,EBA_Boolean,Boolean,false,Boolean,Boolean,Boolean,,false
-EBA,EBA_RF,Reference period,true,Defines a relative time point (reference date or period) to which the data refers.,,RF,,false
-EBA,EBA_MC,Main category,true,"Specifies the nature of the item reported (i.e. answers the question: what is reported?). 
-For financial instruments, defines the instrument (e.g. deposits, debt securities issued...) or range of instruments reported. 
-It should be defined for each data point.",,MC,,false
-EBA,EBA_TI,Time interval,true,Time bands (e.g. > 60 days <= 90 days).,,TI,,false
-EBA,EBA_BT,Boolean total,true,Dimensions having only two values (usually denoted true and false),,BT,,false
-EBA,EBA_NC,NACE code,true,NACE classification of economic activities,,NC,,false
-EBA,EBA_Date,Date,false,Date,Date,Date,,false
-EBA,EBA_LQ,Liquidity,true,Defines different liquidity-related conditions of assets and liabilities,,LQ,,false
-EBA,EBA_CG,Collateral/Guarantees,true,Defines the terms and conditions of the collateral and guarantees,,CG,,false
-EBA,EBA_GA,Geographical area,true,Geographical area,,GA,,false
-EBA,EBA_RP,Related parties/Relationships,true,"Defines the relationship between the reporting institution with an entity or a person; in particular, it specifies the type of related party.",,RP,,false
-EBA,EBA_CS,Contingent scenario,true,Defines the contingent scenarios whose impact is reported,,CS,,false
-EBA,EBA_ATY,Metric,true,"Details the data type (e.g. monetary, percentage, string) of the data point. In XBRL, it is the ""primary item"". 
-Generally, it indicates the ""metrics"" of the Main category provided (i.e. answers the question: how is measured?).
-It should be defined for each data point. 
-In the case of monetary values, when the data point is referred to a (change during a) period of time, the member name shall finish in ""(flow)"". When the member name has other terminations, the data point is a measurement at a date (i.e. ""stock"").",,ATY,,false
-EBA,EBA_TA,Type of activity,true,Defines the type of activity reported (e.g. asset management or custody),,TA,,false
-EBA,EBA_PL,Portfolio,true,Defined the portfolios reported. It comprises both accounting portfolios (e.g. Available-for-sale) and prudential portfolios (e.g. trading book).,,PL,,false
-EBA,EBA_SC,Scope of consolidation,true,Different scopes of consolidation of reporting when different from CRR scope,,SC,,false
-EBA,EBA_CU,Currency,true,Currency,,CU,,false
-EBA,EBA_BA,Base items,true,"Defines the basic conceptual meaning of a data point. 
-Identifies the framework in which a data point is included. For FINREP, it indicates in which group of element of the financial statement should be included the data point (e.g. assets, liabilities, equity, income, expenses). For COREP, it indicates whether the data point should be computed in the numerator (own funds) or the denominator (exposures) of the Pillar I solvency ratio. 
-It may determine whether the data point has a ""debit"" or a ""credit"" attribute.",,BA,,false
-EBA,EBA_PU,Purpose,true,Purpose of the contract or transaction.,,PU,,false
-EBA,EBA_ER,External ratings,true,Concepts related with external credit ratings.,,ER,,false
-EBA,EBA_RT,Risk transfer treatment,true,Type of risk transfer (synthetic or transitional securitisations) and accounting treatment of the transaction,,RT,,false
-EBA,EBA_EC,Exposure classes,true,Defines the exposure class for capital requirement purposes,,EC,,false
-EBA,EBA_ZZ,Code Lists,true,Codes for use in various metrics,,ZZ,,false
-EBA,EBA_MA,Type of market,true,Defines the type of market on which reported instruments are traded. It includes the fair value hierarchy.,,MA,,false
-EBA,EBA_TR,Type of risk,true,Indicates the type of risk arising from exposures or transactions (e.g. credit risk or market risk).,,TR,,false
-ECB,SCRTY_EXCHNG_TRDBL_DRVTV_TYP,Security or exchange tradable derivative type,true,Security or exchange tradable derivative type,,SCRTY_EXCHNG_TRDBL_DRVTV_TYP,,true
-ECB,INSTRMNT_ENTTY_RL_ASSGNMNT_TYP,Instrument Entity role assignment type,true,,,INSTRMNT_ENTTY_RL_ASSGNMNT_TYP,,true
-ECB,ENTTY_RL_TYP,Entity role type,true,Entity role type,,ENTTY_RL_TYP,,true
-ECB,ACCNTNG_CNSLDTN_LVL,Accounting consolidation level,true,Accounting consolidation level,String(50),ACCNTNG_CNSLDTN_LVL,,true
-ECB,PRMRY_PRTCTN_PRVDR_INDCTR,Primary protection provider indicator,true,Primary protection provider indicator,,PRMRY_PRTCTN_PRVDR_INDCTR,,true
-ECB,ABSTRCT_INSTRMNT_RL_TYP,Abstract instrument role type,true,Abstract instrument role type,,ABSTRCT_INSTRMNT_RL_TYP,,true
-ECB,FRTB_RSK_MSR_TYP,Fundamental review of the trading book standard approach risk measure type,true,,,FRTB_RSK_MSR_TYP,,true
-ECB,SCRTY_SCRTY_RPRCHS_AGRMNT_CMPNNT_ASSGNMNT_TYP,Security Security repurchase agreement component assignment type,true,Security Security repurchase agreement component assignment type,,SCRTY_SCRTY_RPRCHS_AGRMNT_CMPNNT_ASSGNMNT_TYP,,true
-ECB,MRKT_CP,Market capitalisation indicator,true,,,MRKT_CP,,true
-ECB,FV_HRRCHY,Fair Value Hierarchy,true,Hierarchy of fair value in accordance with IFRS13,,FV_HRRCHY,,true
-ECB,SNDCTN_SB_PRTCPTN_MMBR_INSTRMNT_INDCTR,Syndication or sub-participation member instrument indicator,true,Syndication or sub-participation member instrument indicator,String(50),SNDCTN_SB_PRTCPTN_MMBR_INSTRMNT_INDCTR,,true
-ECB,PRTCTN_ARRNGMNT_RL_TYP,Protection arrangement role type,true,Protection arrangement role type,String(50),PRTCTN_ARRNGMNT_RL_TYP,,true
-ECB,SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_TYP,Securities borrowing and lending transaction including cash as collateral component type,true,Securities borrowing and lending transaction including cash as collateral component type,,SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_TYP,,true
-ECB,SCRTY_EXCHNG_TRDBL_DRVTV_PSTN_TYP,Security or Exchange tradable derivative position type,true,,,SCRTY_EXCHNG_TRDBL_DRVTV_PSTN_TYP,,true
-ECB,CLLTRL_INSTRMNT_RS_INDCTR,Collateral instrument reuse indicator,true,Collateral instrument reuse indicator,String(50),CLLTRL_INSTRMNT_RS_INDCTR,,true
-ECB,GRP_RL_TYP,Group role type,true,Group role type,,GRP_RL_TYP,,true
-ECB,CLLTRL_RS_INDCTR,Collateral reuse indicator,true,Collateral reuse indicator,String(50),CLLTRL_RS_INDCTR,,true
-ECB,LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP,Long security position Prudential portfolio assignment type,true,Long security position Prudential portfolio assignment type,,LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP,,true
-ECB,EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP,Exchange tradable derivative position role type,true,Exchange tradable derivative position role type,,EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP,,true
-ECB,TRNSFR_IMPRMNT_STGS,Transfer between impairment stages,true,Transfer between impairment stages,,TRNSFR_IMPRMNT_STGS,,true
-ECB,ASST_PL_INSTRMNT_ASSGNMNT_TYP,Asset pool Instrument assignment type,true,Asset pool Instrument assignment type,String(50),ASST_PL_INSTRMNT_ASSGNMNT_TYP,,true
-ECB,CLLTRL_RL_TYP,Collateral role type,true,Collateral role type,String(50),CLLTRL_RL_TYP,,true
-ECB,HLD_SL_INDCTR,Held for sale,true,Held for sale domain,integer(6),HLD_SL_INDCTR,,true
-ECB,SGNFCNT_RSK_TRNSFR_INDCTR,Significant risk transfer indicator,true,Significant risk transfer indicator,,SGNFCNT_RSK_TRNSFR_INDCTR,,true
-ECB,CSR_CRV_TYP,Credit spread risk curve type,true,,,CSR_CRV_TYP,,true
-ECB,OBSRVD_AGNT_INDCTR_ANCRDT_RPRTNG,Observed agent indicator for Anacredit reporting,true,Observed agent indicator for Anacredit reporting,,OBSRVD_AGNT_INDCTR_ANCRDT_RPRTNG,,true
-ECB,CMMRCL_RL_ESTT_LN_INDCTR,Commercial real estate loan indicator,true,,,CMMRCL_RL_ESTT_LN_INDCTR,,true
-ECB,RTNG_SYSTM_TYP,Rating system,true,Rating system,,RTNG_SYSTM_TYP,,true
-ECB,FRBRNC_MSR_GRNTD_DRNG_RFRNC_PRD,Forbearance measure granted during reference period,true,,,FRBRNC_MSR_GRNTD_DRNG_RFRNC_PRD,,true
-ECB,SHRT_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP,Short security position Prudential portfolio assignment type,true,,,SHRT_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP,,true
-ECB,UNDR_CNSTRCTN_INDCTR,Under construction indicator,true,Under construction indicator,integer(6),UNDR_CNSTRCTN_INDCTR,,true
-ECB,SCRTSTN_OTHR_CRDT_TRNSFR_TYP,Securitisation and other credit transfer type,true,Securitisation and other credit transfer type,,SCRTSTN_OTHR_CRDT_TRNSFR_TYP,,true
-ECB,MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_TYP,Master agreement Entity role type,true,,,MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_TYP,,true
-ECB,OTC_DRVTV_HDG_ACCNTNG_STNDRD_TYP,Over the counter (OTC) Derivative hedge accounting standard type,true,Over the counter (OTC) Derivative hedge accounting standard type,,OTC_DRVTV_HDG_ACCNTNG_STNDRD_TYP,,true
-ECB,RVCBL_INDCTR,Revocable indicator,true,Revocable indicator,,RVCBL_INDCTR,,true
-ECB,MLTLTRL_DVLPMNT_BNK_INDCTR,Multilateral development bank indicator,true,,,MLTLTRL_DVLPMNT_BNK_INDCTR,,true
-ECB,PRTY_TYP_ADDRSS,Party type by address,true,Party type by address,,PRTY_TYP_ADDRSS,,true
-ECB,RSCRTSTN_INDCTR,Re-securitisation indicator,true,Re-securitisation indicator,,RSCRTSTN_INDCTR,,true
-ECB,RPRCHS_AGRMNT_TYP,Repurchase agreement component type,true,Repurchase agreement component type,,RPRCHS_AGRMNT_TYP,,true
-ECB,GIRR_RSK_FCTR,GIRR risk factor,true,,,GIRR_RSK_FCTR,,true
-ECB,PRMRY_ASST_CLSS_CVR_PL,Primary asset class of cover pool,true,Covers the primary asset classes for cover pools according to  Article 129(4) and (5) of Regulation (EU) No 575/2013.,,PRMRY_ASST_CLSS_CVR_PL,,true
-ECB,PRTY_TYP,Party type,true,Party type,,PRTY_TYP,,true
-ECB,TYP_PRDCT,Type of product,true,Type of product,,TYP_PRDCT,,true
-ECB,CMMDTY_TYP_FRTB,Commodity type for FRTB,true,,,CMMDTY_TYP_FRTB,,true
-ECB,RGSTRD_PHYSCL_CLLTRL_INDCTR,Registered physical collateral indicator,true,Registered physical collateral indicator,,RGSTRD_PHYSCL_CLLTRL_INDCTR,,true
-ECB,EQUTY_FCTR_TYP,Equity factor type,true,,,EQUTY_FCTR_TYP,,true
-ECB,TYP_ACCNTNG_ITM,Type of accounting item,true,Type of accounting item,,TYP_ACCNTNG_ITM,,true
-ECB,PLNNNG_PRMSSN_INDCTR,Planning permissions indicator,true,Planning permissions indicator,integer(6),PLNNNG_PRMSSN_INDCTR,,true
-ECB,DT_OPNNG_BLNC,Reference date opening balance,true,Reference date opening balance,,DT_OPNNG_BLNC,,true
-ECB,RTNG_GRD_CRDT_QLTY,Rating grade credit quality,true,,,RTNG_GRD_CRDT_QLTY,,true
-ECB,GRP_KY_MNGMNT_PRSNNL_ASSGNMNT_TYP,Group Key management personnel assignment type,true,Group Key management personnel assignment type,String(50),GRP_KY_MNGMNT_PRSNNL_ASSGNMNT_TYP,,true
-ECB,ASST_PL_TYP,Asset pool (subject to securitisation and other credit transfer) type,true,,,ASST_PL_TYP,,true
-ECB,PRFRMNG_STTS_RSN,Performing status reasons,true,Performing status reasons,integer(6),PRFRMNG_STTS_RSN,,true
-ECB,PRFRMNG_FRBRN_EXPSR_PRBTN_RCLD_NN_PRFRMNG_INDCTR,Performing forborne exposure under probation reclassified from non-performing indicator,true,,,PRFRMNG_FRBRN_EXPSR_PRBTN_RCLD_NN_PRFRMNG_INDCTR,,true
-ECB,INSTRMNT_PRTCTN_ARRNGMNT_ASSGNMNT_TYP,Instrument Protection arrangement assignment type,true,Instrument Protection arrangement assignment type,String(50),INSTRMNT_PRTCTN_ARRNGMNT_ASSGNMNT_TYP,,true
-ECB,ASST_ENCMBRNC_SRC_INDCTR,Asset encumbrance source indicator,true,Asset encumbrance source indicator,String(50),ASST_ENCMBRNC_SRC_INDCTR,,true
-ECB,ELGBL_GRNT_INDCTR,Eligible as guarantee indicator,true,Eligible as guarantee indicator,,ELGBL_GRNT_INDCTR,,true
-ECB,PRTY_CD_TYP,Party code type,true,Party code type,,PRTY_CD_TYP,,true
-ECB,FRBRNC_MSR_TYP,Types of forbearance measure,true,Types of forbearance measure,integer(6),FRBRNC_MSR_TYP,,true
-ECB,PRTCTN_ARRNGMNT_RS_INDCTR,Protection arrangement instrument reuse indicator,true,Protection arrangement instrument reuse indicator,String(50),PRTCTN_ARRNGMNT_RS_INDCTR,,true
-ECB,FVO_DSGNTN,Fair value option designation,true,It lists the possible options to irrevocably designate a financial instrument at fair value through profit or loss in accordance with IFRS9,,FVO_DSGNTN,,true
-ECB,SCRTSTN_TRNCH_TYP,Securitisation tranche type,true,,,SCRTSTN_TRNCH_TYP,,true
-ECB,PRTCTN_VL_TYP,Protection value type,true,Protection value type,,PRTCTN_VL_TYP,,true
-ECB,ACCNTNG_HDG_INDCTR,Accounting hedge indicator,true,Accounting hedge indicator,,ACCNTNG_HDG_INDCTR,,true
-ECB,CMPLNC_CRR_129_TYP,Compliance with article 129 CRR type,true,Compliance with article 129 CRR type,,CMPLNC_CRR_129_TYP,,true
-ECB,ARRNGMNT_TYP,Arrangement type,true,Arrangement type,,ARRNGMNT_TYP,,true
-ECB,MN_GRNTR_INDCTR,Main guarantor indicator,true,Main guarantor indicator,,MN_GRNTR_INDCTR,,true
-ECB,MN_LSS_INDCTR,Main lessee indicator,true,Main lessee indicator,,MN_LSS_INDCTR,,true
-ECB,APPRCH_CRDT_QLTY_STTS,Assessment approach for credit quality status,true,Assessment approach for credit quality status,,APPRCH_CRDT_QLTY_STTS,,true
-ECB,SBJCT_IMPRMNT_INDCTR,Subject to impairment indicator,true,Subject to impairment indicator,,SBJCT_IMPRMNT_INDCTR,,true
-ECB,RTND_DBT_SCRTY_INDCTR,Retained debt security indicator,true,Retained debt security indicator,String(50),RTND_DBT_SCRTY_INDCTR,,true
-ECB,OPTN_TYP,Option type,true,Option type,string(20),OPTN_TYP,,true
-ECB,MSTR_AGRMNT_TYP,Master agreement type,true,,,MSTR_AGRMNT_TYP,,true
-ECB,SHCK_DRCTN,Shock direction,true,,,SHCK_DRCTN,,true
-ECB,SHRT_TRM_CRDT_ASSMNT_INDCTR,Short term credit assessment indicator,true,Short term credit assessment indicator,,SHRT_TRM_CRDT_ASSMNT_INDCTR,,true
-ECB,ECNMY,Economy,true,,,ECNMY,,true
-ECB,HDGD_PRTFL_ASST_LBLTY_INDCTR,Hedged portfolio asset or liability indicator,true,,,HDGD_PRTFL_ASST_LBLTY_INDCTR,,true
-ECB,RVLVNG_LN_INDCTR,Revolving loan indicator,true,Revolving loan indicator,,RVLVNG_LN_INDCTR,,true
-ECB,FLD_NN_PRFRMNG_EXT_CRTR_INDCTR,Failed to meet the non-performing exit criteria indicator,true,,,FLD_NN_PRFRMNG_EXT_CRTR_INDCTR,,true
-ECB,AVLBL_ENCMBRNC,Available for encumbrance,true,"Domain covering the members: Available for encumbrance, Not available for encumbrance, Available and not available for encumbrance, Not applicable.
-See EBA ITS on Asset encumbrance, 2.2.1. General remarks.",,AVLBL_ENCMBRNC,,true
-ECB,STRCTRD_NT_INDCTR,Structured note indicator,true,Structured note indicator,,STRCTRD_NT_INDCTR,,true
-ECB,TYP_CMMTMNT,Type of commitment,true,Type of commitment,String(50),TYP_CMMTMNT,,true
-ECB,LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_TYP,Long security position Prudentiial Portfolio assignment Accounting classification for financial assets assignment type,true,Long security position Prudentiial Portfolio assignment Accounting classification for financial assets assignment type,,LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_TYP,,true
-ECB,MSRMNT_MTHD,Measurement method,true,Measurement method,,MSRMNT_MTHD,,true
-ECB,ENTRPRS_INDCTR,Enterprise indicator,true,Enterprise indicator,,ENTRPRS_INDCTR,,true
-ECB,INVSTMNT_PRPRTY_TYP,Investmemnt property type,true,Investmemnt property type,,INVSTMNT_PRPRTY_TYP,,true
-ECB,LW_CRDT_RSK_INDCTR,Low credit risk indicator,true,Low credit risk indicator,integer(6),LW_CRDT_RSK_INDCTR,,true
-ECB,INSTRMNT_CLLTRL_INSTRMNT_ASSGNMNT_TYP,Instrument Collateral instrument assignment type,true,Instrument Collateral instrument assignment type,,INSTRMNT_CLLTRL_INSTRMNT_ASSGNMNT_TYP,,true
-ECB,CRDT_FCLTY_ENTTY_RL_ASSGNMNT_TYP,Credit facility Entity role assignment type,true,,,CRDT_FCLTY_ENTTY_RL_ASSGNMNT_TYP,,true
-ECB,CNSLDTN_MTHD,consolidation method,true,The type of consolidtation method used.,,CNSLDTN_MTHD,,true
-ECB,PRMRY_ISSR_INDCTR,Primary issuer indicator,true,Primary issuer indicator,,PRMRY_ISSR_INDCTR,,true
-ECB,SCRTY_ENTTY_RL_ASSGNMNT_TYP,Security Entity role assignment type,true,,,SCRTY_ENTTY_RL_ASSGNMNT_TYP,,true
-ECB,OWN_CMPNY_INVSTMNT_INDCTR,Own company investment indicator,true,"Determines if the investment in the Security position is in a subsidiary, joint venture or associate of the own company or not.",,OWN_CMPNY_INVSTMNT_INDCTR,,true
-ECB,PRPRTY_PLNT_EQPMNT_TKN_PSSSSN_DRNG_PRD_INDCTR,"Property, plant and equipment during the period indicator",true,"Property, plant and equipment during the period indicator",,PRPRTY_PLNT_EQPMNT_TKN_PSSSSN_DRNG_PRD_INDCTR,,true
-ECB,NN_PRFRMNG_PRR_FRBRNC_INDCTR,Non-performing prior to forbearance indicator,true,Non-performing prior to forbearance indicator,,NN_PRFRMNG_PRR_FRBRNC_INDCTR,,true
-ECB,HQLA_INDCTR,High liquidity and credit quality (HQLA) indicator,true,High liquidity and credit quality (HQLA) indicator,,HQLA_INDCTR,,true
-ECB,LTGTN_STTS,Litigation status,true,Litigation status,integer(6),LTGTN_STTS,,true
-ECB,EXCHNG_TRDBL_DRVTV_TYP_BY_IDNTFR,Exchange tradable derivative type by identifier,true,Exchange tradable derivative type by identifier,,EXCHNG_TRDBL_DRVTV_TYP_BY_IDNTFR,,true
-ECB,RTNG_GRD_TYP,Rating grade type,true,Rating grade type,,RTNG_GRD_TYP,,true
-ECB,FNNCL_CNTRCT_TYP,Financial contract type,true,Financial contract type,,FNNCL_CNTRCT_TYP,,true
-ECB,INSTRMNT_CLLTRL_ASSGNMNT_TYP,Instrument Collateral assignment type,true,Instrument Collateral assignment type,,INSTRMNT_CLLTRL_ASSGNMNT_TYP,,true
-ECB,ELGBL_CNTRL_BNK_FNDNG,Eligible for central bank funding,true,"Domain covering the members: Eligible for central bank funding, Not eligible for central bank funding, Eligible and not eligible for central bank funding and Not applicable.",,ELGBL_CNTRL_BNK_FNDNG,,true
-ECB,TYP_HDG,Type of hedge,true,Type of Hedge in accordance with the applicable accounting standard and Reg 680/2014 (Annex V),,TYP_HDG,,true
-ECB,TRNSFRRD_ASST_LG_INSTRMNT_ASSGNMNT_TYP,Transferred asset leg Instrument assignment type,true,Transferred asset leg Instrument assignment type,String(50),TRNSFRRD_ASST_LG_INSTRMNT_ASSGNMNT_TYP,,true
-ECB,CST_BSD_MTHD_LCM_INDCTR,At cost based method or Lower of cost or market (LOCOM) indicator,true,At cost based method or Lower of cost or market (LOCOM) indicator,String(50),CST_BSD_MTHD_LCM_INDCTR,,true
-ECB,STS_SCRTSTN_INDCTR,"Simple, transparent and standardised (STS) securitisation indicator",true,"Simple, transparent and standardised (STS) securitisation indicator",,STS_SCRTSTN_INDCTR,,true
-ECB,MN_DPST_TKNG_CRPRTN_INDCTR,Main Deposit-taking corporation indicator,true,Main Deposit-taking corporation indicator,,MN_DPST_TKNG_CRPRTN_INDCTR,,true
-ECB,DMSTC_ACTVT_INDCTR,Domestic activities indicator,true,,,DMSTC_ACTVT_INDCTR,,true
-ECB,SGNFCNT_ASST_CLSS,Significant asset class,true,Significant asset class,,SGNFCNT_ASST_CLSS,,true
-ECB,RTL_EXPSR_ACCRDNG_CRR_INDCTR,"Retail exposure accordign to CRR, Article 123 (b) indicator",true,"Retail exposure accordign to CRR, Article 123 (b) indicator",,RTL_EXPSR_ACCRDNG_CRR_INDCTR,,true
-ECB,MLTPL_FRBRNC_MSR_INDCTR,Multiple forbearance measures in place indicator,true,,,MLTPL_FRBRNC_MSR_INDCTR,,true
-ECB,SBJCT_OPRTNG_LS_INDCTR,Subject to operating lease indicator,true,Subject to operating lease indicator,,SBJCT_OPRTNG_LS_INDCTR,,true
-ECB,PLLNG_EFFCT_INDCTR,Pulling effect indicator,true,Pulling effect indicator,,PLLNG_EFFCT_INDCTR,,true
-ECB,ECAI_ECA,ECAI/ECA,true,ECAI/ECA,,ECAI_ECA,,true
-ECB,TYP_RSK,Type of Risk,true,Type of risk in accordance with Reg. 680/2014 (Annex V),,TYP_RSK,,true
-ECB,SCRTY_PSTN_RL_TYP,Security position role type,true,Security position role type,String(50),SCRTY_PSTN_RL_TYP,,true
-ECB,OVRDRFT_INDCTR,Overdraft indicator,true,Overdraft indicator,String(50),OVRDRFT_INDCTR,,true
-ECB,RSK_CLSS,Risk class,true,,,RSK_CLSS,,true
-ECB,IMMDT_PRNT_ANCRDT_INDCTR,Immediate parent according to AnaCredit indicator,true,Immediate parent according to AnaCredit indicator,,IMMDT_PRNT_ANCRDT_INDCTR,,true
-ECB,TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_TYP,Tranch in a synthetic securitisation without SSPE type,true,,,TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_TYP,,true
-ECB,EXCHNG_TRDBL_DRVTV_PRTCN_ARRNGMNT_ASSGNMNT_TYP,Exchange tradable derivative Protection arrangement assignment type,true,Exchange tradable derivative Protection arrangement assignment type,String(50),EXCHNG_TRDBL_DRVTV_PRTCN_ARRNGMNT_ASSGNMNT_TYP,,true
-ECB,NGTBL_SCRTY,Negotiable security,true,Negotiable security,,NGTBL_SCRTY,,true
-ECB,SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_TYP,"Subsidiary, joint venture and associate Other organisation role assignment type",true,,,SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_TYP,,true
-ECB,MN_DBTR_INDCTR,Main debtor indicator,true,Main debtor indicator,,MN_DBTR_INDCTR,,true
-ECB,SPCLSD_LNDNG_EXPSR_TYP,Specialised lending exposure type,true,Specialised lending exposure type,,SPCLSD_LNDNG_EXPSR_TYP,,true
-ECB2,ECB2_DT,Date,false,,date,DT,,false
-ECB2,ECB2_RL,Real,false,,number,RL,,false
-ECB2,ECB2_STRNG,String,false,,string,STRNG,,false
-ECB2,ECB2_MNTRY,Monetary,false,,number,MNTRY,,false
-ECB2,ECB2_InSeTy,Instrument Seniority Type,true,,,InSeTy,,false
-ECB2,ECB2_PrAsCl,Primary Asset Classification 2,true,,,PrAsCl,,false
-ECB2,ECB2_AsSeTy,Asset Securitisation Type,true,,,AsSeTy,,false
-ECB2,ECB2_SecSta,Security Status,true,,,SecSta,,false
-ECB2,ECB2_CL_FREQ,Frequency code list,true,,,CL_FREQ,,false
-ECB2,ECB2_CL_YES_NO,Yes/no code list,true,,,CL_YES_NO,,false
-ECB2,ECB2_CL_SHS_NACE,Issuer NACE sector code list,true,,,CL_SHS_NACE,,false
-ECB2,ECB2_CL_SHS_AREA,Area code list,true,,,CL_SHS_AREA,,false
-ECB2,ECB2_CL_SHS_UNIT,Unit of measure code list,true,,,CL_SHS_UNIT,,false
-ECB2,ECB2_CL_SHS_SECTOR,Institutional sector code list,true,,,CL_SHS_SECTOR,,false
-ECB2,ECB2_CL_SHS_ID_TYPE,Group/Entity ID type,true,,,CL_SHS_ID_TYPE,,false
-ECB2,ECB2_CL_SHS_CURRENCY,Currency code list,true,,,CL_SHS_CURRENCY,,false
-ECB2,ECB2_CL_SHS_REP_BASIS,Reporting basis code list,true,,,CL_SHS_REP_BASIS,,false
-ECB2,ECB2_CL_SHS_DFLT_STTS,Default status,true,Default status in accordance with Article 178 of Regulation (EU) No 575/2013,,CL_SHS_DFLT_STTS,,false
-ECB2,ECB2_CL_SHS_ISSUER_RBG,Issuer is part of the reporting group code list,true,,,CL_SHS_ISSUER_RBG,,false
-ECB2,ECB2_CL_SHS_EXPSR_CLSS,Exposure class as defined in accordance with Regulation (EU) No 575/2013,true,,,CL_SHS_EXPSR_CLSS,,false
-ECB2,ECB2_CL_SHS_GROUP_TYPE,Group type code list,true,,,CL_SHS_GROUP_TYPE,,false
-ECB2,ECB2_CL_SHS_INPUT_TYPE,Input type,true,,,CL_SHS_INPUT_TYPE,,false
-ECB2,ECB2_CL_SHS_FRBRNC_STTS,Status of forbearance and renegotiation,true,,,CL_SHS_FRBRNC_STTS,,false
-ECB2,ECB2_CL_SHS_ISSUER_AREA,Area code list,true,,,CL_SHS_ISSUER_AREA,,false
-ECB2,ECB2_CL_SHS_SRC_ENCMBRNC,Source of Encumbrance,true,,,CL_SHS_SRC_ENCMBRNC,,false
-ECB2,ECB2_CL_SHS_ORGANISATION,Number,true,,,CL_SHS_ORGANISATION,,false
-ECB2,ECB2_CL_SHS_PRFRMNG_STTS,Performing status,true,,,CL_SHS_PRFRMNG_STTS,,false
-ECB2,ECB2_CL_SHS_IMPRMNT_STTS,Imparement status,true,,,CL_SHS_IMPRMNT_STTS,,false
-ECB2,ECB2_CL_SHS_ACC_STANDARD,Accounting Standard,true,,,CL_SHS_ACC_STANDARD,,false
-ECB2,ECB2_CL_SHS_PRDNTL_PRTFL,Prudential portfolio,true,,,CL_SHS_PRDNTL_PRTFL,,false
-ECB2,ECB2_CL_SHS_INSTR_ESA2010,CSDB instrument ESA 2010 class code list,true,,,CL_SHS_INSTR_ESA2010,,false
-ECB2,ECB2_CL_SHS_ENTITY_STATUS,Entity status,true,,,CL_SHS_ENTITY_STATUS,,false
-ECB2,ECB2_CL_SHS_ISSUER_ESA2010,CSDB issuer sector 2010 code list,true,,,CL_SHS_ISSUER_ESA2010,,false
-ECB2,ECB2_CL_SHS_COLLATERAL_AREA,Collateral geographical location,true,,,CL_SHS_COLLATERAL_AREA,,false
-ECB2,ECB2_CL_SHS_IDENTIFIER_TYPE,Identifier type code list,true,,,CL_SHS_IDENTIFIER_TYPE,,false
-ECB2,ECB2_CL_SHS_ACCNTNG_CLSSFCTN,Accounting classification,true,,,CL_SHS_ACCNTNG_CLSSFCTN,,false
-ECB2,ECB2_CL_SHS_APPRCH_PRDNTL_PRPSS,Approach for prudential purposes,true,,,CL_SHS_APPRCH_PRDNTL_PRPSS,,false
-ECB2,ECB2_CL_SHS_IMPRMNT_ASSSSMNT_MTHD,Impairment assessment method,true,The method by which it is assessed if the instrument is subject to impairment in accord-ance with applied accounting standards. Collective and individual methods are distin-guished.,,CL_SHS_IMPRMNT_ASSSSMNT_MTHD,,false
-ECB,ECNMC_ACTVTY_V2,Nomenclature of Economic Activities (NACE revision 2.1) codes,true,"Classification of counterparties according to their economic activities, in accordance with the NACE revision 2.1 statistical classification as laid down in Commission Delegated Regulation (EU) 2023/137, amending Regulation (EC) No 1893/2006 of the European Parliament and of the Council.",string(20),ECNMC_ACTVTY_V2,,true
-ECB,ENTTY_RL,Counterparty role,true,Role of the counterparties in an instrument.,integer(6),ENTTY_RL,,true
-ECB,FDCRY,Fiduciary instruments,true,Fiduciary instruments,integer(6),FDCRY,,true
-ECB,LGL_FRM,Legal Form,true,Legal Form,string(20),LGL_FRM,,true
-ECB,LGL_PRCDNG_STTS,Status of legal proceedings,true,Status of legal proceedings,integer(6),LGL_PRCDNG_STTS,,true
-ECB,NEVS,Null explanatory values,true,Null explanatory values,integer(6),NEVS,,true
-ECB,PRJCT_FNNC_LN,Project finance loans,true,Project finance loans,integer(6),PRJCT_FNNC_LN,,true
-ECB,PRPS,Purpose,true,Purpose,integer(6),PRPS,,true
-ECB,PRTCTN_VLTN_APPRCH,Protection valuation approach,true,Type of protection valuation; method used to determine the protection value.,integer(6),PRTCTN_VLTN_APPRCH,,true
-ECB,RCRS,Recourse,true,Recourse,integer(6),RCRS,,true
-ECB,RFRNC_RT,Reference rate code,true,Reference rate code,integer(6),RFRNC_RT,,true
-ECB,RPYMNT_RGHTS,Repayment rights,true,Repayment rights,integer(6),RPYMNT_RGHTS,,true
-ECB,SBRDNTD_DBT,Subordinated debt,true,Subordinated debt,integer(6),SBRDNTD_DBT,,true
-ECB,SZ,Enterprise size,true,Enterprise size,integer(6),SZ,,true
-ECB,TYP_AMRTSTN,Amortisation type,true,Amortisation type,integer(6),TYP_AMRTSTN,,true
-ECB,TYP_INTRST_RT,Interest rate type,true,Interest rate type,integer(6),TYP_INTRST_RT,,true
-ECB,TYP_PRTCTN,Type of protection,true,Type of protection,integer(6),TYP_PRTCTN,,true
-ECB,TYP_PRTCTN_VL,Type of protection value,true,Identification of the type of value provided in the data attribute ‘Protection value’.,integer(6),TYP_PRTCTN_VL,,true
-ECB,TYP_TRNSFR,Type of Transfer,true,Type of Transfer,integer(6),TYP_TRNSFR,,true
+ECB,ABSTRCT_INSTRMNT_RL_TYP,ABSTRCT_INSTRMNT_RL_TYP,,,,,,
+ECB,ACCNTNG_CLSSFCTN,ACCNTNG_CLSSFCTN,,,,,,
+ECB,ACCNTNG_CNSLDTN_LVL,ACCNTNG_CNSLDTN_LVL,,,,,,
+ECB,ACCNTNG_FRMWRK,ACCNTNG_FRMWRK,,,,,,
+ECB,ACCNTNG_HDG_INDCTR,ACCNTNG_HDG_INDCTR,,,,,,
+ECB,ACCRD_INTRST_MRKT_VL_INDCTR,ACCRD_INTRST_MRKT_VL_INDCTR,,,,,,
+ECB,APPRCH_CRDT_QLTY_STTS,APPRCH_CRDT_QLTY_STTS,,,,,,
+ECB,APPRCH_PRDNTL_PRPSS,APPRCH_PRDNTL_PRPSS,,,,,,
+ECB,ARRNGMNT_TYP,ARRNGMNT_TYP,,,,,,
+ECB,ASST_ENCMBRNC_SRC_INDCTR,ASST_ENCMBRNC_SRC_INDCTR,,,,,,
+ECB,ASST_PL_INSTRMNT_ASSGNMNT_TYP,ASST_PL_INSTRMNT_ASSGNMNT_TYP,,,,,,
+ECB,ASST_PL_TYP,ASST_PL_TYP,,,,,,
+ECB,AVLBL_ENCMBRNC,AVLBL_ENCMBRNC,,,,,,
+ECB,BLN,BLN,,,,,,
+ECB,Boolean,Boolean,,Boolean,Boolean,,,
+ECB,CLLTRL_INSTRMNT_RS_INDCTR,CLLTRL_INSTRMNT_RS_INDCTR,,,,,,
+ECB,CLLTRL_RL_TYP,CLLTRL_RL_TYP,,,,,,
+ECB,CLLTRL_RS_INDCTR,CLLTRL_RS_INDCTR,,,,,,
+ECB,CMMDTY_TYP_FRTB,CMMDTY_TYP_FRTB,,,,,,
+ECB,CMMRCL_RL_ESTT_LN_INDCTR,CMMRCL_RL_ESTT_LN_INDCTR,,,,,,
+ECB,CMPLNC_CRR_129_TYP,CMPLNC_CRR_129_TYP,,,,,,
+ECB,CNSLDTN_MTHD,CNSLDTN_MTHD,,,,,,
+ECB,CRDT_FCLTY_ENTTY_RL_ASSGNMNT_TYP,CRDT_FCLTY_ENTTY_RL_ASSGNMNT_TYP,,,,,,
+ECB,CRDT_QLTY,CRDT_QLTY,,,,,,
+ECB,CRRNCY,CRRNCY,,,,,,
+ECB,CSR_CRV_TYP,CSR_CRV_TYP,,,,,,
+ECB,CST_BSD_MTHD_LCM_INDCTR,CST_BSD_MTHD_LCM_INDCTR,,,,,,
+ECB,DMSTC_ACTVT_INDCTR,DMSTC_ACTVT_INDCTR,,,,,,
+ECB,Date,Date,,Date,Date,,,
+EBA,EBA_AP,Approach,True,Approach used for the calculation of capital requirements (or exposure value in LR),,AP,,True
+EBA,EBA_AS,Accounting standard,True,The accounting standard used to prepare figures or reports,,AS,,True
+EBA,EBA_ATY,Metric,True,"Details the data type (e.g. monetary, percentage, string) of the data point. In XBRL, it is the ""primary item"". Generally, it indicates the ""metrics"" of the Main category provided (i.e. answers the question: how is measured?). It should be defined for each data point. In the case of monetary values, when the data point is referred to a (change during a) period of time, the member name shall finish in ""(flow)"". When the member name has other terminations, the data point is a measurement at a date (i.e. ""stock"").",,ATY,,True
+EBA,EBA_BA,Base items,True,"Defines the basic conceptual meaning of a data point. Identifies the framework in which a data point is included. For FINREP, it indicates in which group of element of the financial statement should be included the data point (e.g. assets, liabilities, equity, income, expenses). For COREP, it indicates whether the data point should be computed in the numerator (own funds) or the denominator (exposures) of the Pillar I solvency ratio. It may determine whether the data point has a ""debit"" or a ""credit"" attribute.",,BA,,True
+EBA,EBA_BT,Boolean total,True,Dimensions having only two values (usually denoted true and false),,BT,,True
+EBA,EBA_Boolean,Boolean,True,Boolean,,Boolean,,True
+EBA,EBA_CB,Covered bond,True,Name or unambiguous abbreviation of a covered bond issuing entity and the designation of a covered bond,,CB,,True
+EBA,EBA_CG,Collateral/Guarantees,True,Defines the terms and conditions of the collateral and guarantees,,CG,,True
+EBA,EBA_CONS_LEVEL,Consolidation level,True,,,CONS_LEVEL,,True
+EBA,EBA_CS,Contingent scenario,True,Defines the contingent scenarios whose impact is reported,,CS,,True
+EBA,EBA_CT,Counterparty,True,Party other than the reporting institution in a contract or transaction.,,CT,,True
+EBA,EBA_CU,Currency,True,Currency,,CU,,True
+EBA,EBA_DT,Date,True,Date,,DT,,True
+EBA,EBA_Date,Date,True,Date,,Date,,True
+EBA,EBA_Decimal,Decimal,True,Decimal,,Decimal,,True
+EBA,EBA_EC,Exposure classes,True,Defines the exposure class for capital requirement purposes,,EC,,True
+EBA,EBA_ER,External ratings,True,Concepts related with external credit ratings.,,ER,,True
+EBA,EBA_GA,Geographical area,True,Geographical area,,GA,,True
+EBA,EBA_IM,Impairment,True,"Concepts related with monitoring credit quality of financial assets and off-balance sheet items (e.g. past due, impaired, defaulted)",,IM,,True
+EBA,EBA_Integer,Integer,True,Integer,,Integer,,True
+EBA,EBA_LE,Legal entity,True,"An association, corporation, partnership, proprietorship, trust, or individual that has legal standing in the eyes of law",,LE,,True
+EBA,EBA_LQ,Liquidity,True,Defines different liquidity-related conditions of assets and liabilities,,LQ,,True
+EBA,EBA_MA,Type of market,True,Defines the type of market on which reported instruments are traded. It includes the fair value hierarchy.,,MA,,True
+EBA,EBA_MC,Main category,True,"Specifies the nature of the item reported (i.e. answers the question: what is reported?). For financial instruments, defines the instrument (e.g. deposits, debt securities issued...) or range of instruments reported. It should be defined for each data point.",,MC,,True
+EBA,EBA_Monetary,Monetary,True,Monetary,,Monetary,,True
+EBA,EBA_NC,NACE code,True,NACE classification of economic activities,,NC,,True
+EBA,EBA_OF,Computability in own funds,True,Specifies the way in which the item computes in own funds,,OF,,True
+EBA,EBA_PL,Portfolio,True,Defined the portfolios reported. It comprises both accounting portfolios (e.g. Available-for-sale) and prudential portfolios (e.g. trading book).,,PL,,True
+EBA,EBA_PU,Purpose,True,Purpose of the contract or transaction.,,PU,,True
+EBA,EBA_Percent,Percent,True,Percent,,Percent,,True
+EBA,EBA_RF,Reference period,True,Defines a relative time point (reference date or period) to which the data refers.,,RF,,True
+EBA,EBA_RP,Related parties/Relationships,True,"Defines the relationship between the reporting institution with an entity or a person; in particular, it specifies the type of related party.",,RP,,True
+EBA,EBA_RT,Risk transfer treatment,True,Type of risk transfer (synthetic or transitional securitisations) and accounting treatment of the transaction,,RT,,True
+EBA,EBA_SC,Scope of consolidation,True,Different scopes of consolidation of reporting when different from CRR scope,,SC,,True
+EBA,EBA_ST,Securitisation structure,True,Tranche of the exposure in the securitisation structure,,ST,,True
+EBA,EBA_STRNG,STRING,True,,,STRNG,,True
+EBA,EBA_SY,Security,True,"Financial instrument that represents: an ownership position in a publicly-traded corporation (stock), a creditor relationship with governmental body or a corporation (bond), or rights to ownership as represented by an option.",,SY,,True
+EBA,EBA_String,String,True,String,,String,,True
+EBA,EBA_TA,Type of activity,True,Defines the type of activity reported (e.g. asset management or custody),,TA,,True
+EBA,EBA_TI,Time interval,True,Time bands (e.g. > 60 days <= 90 days).,,TI,,True
+EBA,EBA_TR,Type of risk,True,Indicates the type of risk arising from exposures or transactions (e.g. credit risk or market risk).,,TR,,True
+EBA,EBA_ZZ,Code Lists,True,Codes for use in various metrics,,ZZ,,True
+ECB,ECAI_ECA,ECAI_ECA,,,,,,
+ECB2,ECB2_AsSeTy,Asset Securitisation Type,True,,,AsSeTy,,True
+ECB2,ECB2_CL_FREQ,Frequency code list,True,,,CL_FREQ,,True
+ECB2,ECB2_CL_SHS_ACCNTNG_CLSSFCTN,Accounting classification,True,,,CL_SHS_ACCNTNG_CLSSFCTN,,True
+ECB2,ECB2_CL_SHS_ACC_STANDARD,Accounting Standard,True,,,CL_SHS_ACC_STANDARD,,True
+ECB2,ECB2_CL_SHS_APPRCH_PRDNTL_PRPSS,Approach for prudential purposes,True,,,CL_SHS_APPRCH_PRDNTL_PRPSS,,True
+ECB2,ECB2_CL_SHS_AREA,Area code list,True,,,CL_SHS_AREA,,True
+ECB2,ECB2_CL_SHS_COLLATERAL_AREA,Collateral geographical location,True,,,CL_SHS_COLLATERAL_AREA,,True
+ECB2,ECB2_CL_SHS_CURRENCY,Currency code list,True,,,CL_SHS_CURRENCY,,True
+ECB2,ECB2_CL_SHS_DFLT_STTS,Default status,True,Default status in accordance with Article 178 of Regulation (EU) No 575/2013,,CL_SHS_DFLT_STTS,,True
+ECB2,ECB2_CL_SHS_ENTITY_STATUS,Entity status,True,,,CL_SHS_ENTITY_STATUS,,True
+ECB2,ECB2_CL_SHS_EXPSR_CLSS,Exposure class as defined in accordance with Regulation (EU) No 575/2013,True,,,CL_SHS_EXPSR_CLSS,,True
+ECB2,ECB2_CL_SHS_FRBRNC_STTS,Status of forbearance and renegotiation,True,,,CL_SHS_FRBRNC_STTS,,True
+ECB2,ECB2_CL_SHS_GROUP_TYPE,Group type code list,True,,,CL_SHS_GROUP_TYPE,,True
+ECB2,ECB2_CL_SHS_IDENTIFIER_TYPE,Identifier type code list,True,,,CL_SHS_IDENTIFIER_TYPE,,True
+ECB2,ECB2_CL_SHS_ID_TYPE,Group/Entity ID type,True,,,CL_SHS_ID_TYPE,,True
+ECB2,ECB2_CL_SHS_IMPRMNT_ASSSSMNT_MTHD,Impairment assessment method,True,The method by which it is assessed if the instrument is subject to impairment in accord-ance with applied accounting standards. Collective and individual methods are distin-guished.,,CL_SHS_IMPRMNT_ASSSSMNT_MTHD,,True
+ECB2,ECB2_CL_SHS_IMPRMNT_STTS,Imparement status,True,,,CL_SHS_IMPRMNT_STTS,,True
+ECB2,ECB2_CL_SHS_INPUT_TYPE,Input type,True,,,CL_SHS_INPUT_TYPE,,True
+ECB2,ECB2_CL_SHS_INSTR_ESA2010,CSDB instrument ESA 2010 class code list,True,,,CL_SHS_INSTR_ESA2010,,True
+ECB2,ECB2_CL_SHS_ISSUER_AREA,Area code list,True,,,CL_SHS_ISSUER_AREA,,True
+ECB2,ECB2_CL_SHS_ISSUER_ESA2010,CSDB issuer sector 2010 code list,True,,,CL_SHS_ISSUER_ESA2010,,True
+ECB2,ECB2_CL_SHS_ISSUER_RBG,Issuer is part of the reporting group code list,True,,,CL_SHS_ISSUER_RBG,,True
+ECB2,ECB2_CL_SHS_NACE,Issuer NACE sector code list,True,,,CL_SHS_NACE,,True
+ECB2,ECB2_CL_SHS_ORGANISATION,Number,True,,,CL_SHS_ORGANISATION,,True
+ECB2,ECB2_CL_SHS_PRDNTL_PRTFL,Prudential portfolio,True,,,CL_SHS_PRDNTL_PRTFL,,True
+ECB2,ECB2_CL_SHS_PRFRMNG_STTS,Performing status,True,,,CL_SHS_PRFRMNG_STTS,,True
+ECB2,ECB2_CL_SHS_REP_BASIS,Reporting basis code list,True,,,CL_SHS_REP_BASIS,,True
+ECB2,ECB2_CL_SHS_SECTOR,Institutional sector code list,True,,,CL_SHS_SECTOR,,True
+ECB2,ECB2_CL_SHS_SRC_ENCMBRNC,Source of Encumbrance,True,,,CL_SHS_SRC_ENCMBRNC,,True
+ECB2,ECB2_CL_SHS_UNIT,Unit of measure code list,True,,,CL_SHS_UNIT,,True
+ECB2,ECB2_CL_YES_NO,Yes/no code list,True,,,CL_YES_NO,,True
+ECB2,ECB2_DT,Date,True,,,DT,,True
+ECB2,ECB2_InSeTy,Instrument Seniority Type,True,,,InSeTy,,True
+ECB2,ECB2_MNTRY,Monetary,True,,,MNTRY,,True
+ECB2,ECB2_PrAsCl,Primary Asset Classification 2,True,,,PrAsCl,,True
+ECB2,ECB2_RL,Real,True,,,RL,,True
+ECB2,ECB2_STRNG,String,True,,,STRNG,,True
+ECB2,ECB2_SecSta,Security Status,True,,,SecSta,,True
+ECB,ECNMC_ACTVTY,ECNMC_ACTVTY,,,,,,
+ECB,ECNMY,ECNMY,,,,,,
+ECB,ELGBL_CNTRL_BNK_FNDNG,ELGBL_CNTRL_BNK_FNDNG,,,,,,
+ECB,ELGBL_GRNT_INDCTR,ELGBL_GRNT_INDCTR,,,,,,
+ECB,ENTRPRS_INDCTR,ENTRPRS_INDCTR,,,,,,
+ECB,ENTTY_RL_TYP,ENTTY_RL_TYP,,,,,,
+ECB,EQUTY_FCTR_TYP,EQUTY_FCTR_TYP,,,,,,
+ECB,ERLY_RDMPTN_INCLSN_INDCTR,ERLY_RDMPTN_INCLSN_INDCTR,,,,,,
+ECB,EXCHNG_TRDBL_DRVTV_PRTCN_ARRNGMNT_ASSGNMNT_TYP,EXCHNG_TRDBL_DRVTV_PRTCN_ARRNGMNT_ASSGNMNT_TYP,,,,,,
+ECB,EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP,EXCHNG_TRDBL_DRVTV_PSTN_RL_TYP,,,,,,
+ECB,EXCHNG_TRDBL_DRVTV_TYP_BY_IDNTFR,EXCHNG_TRDBL_DRVTV_TYP_BY_IDNTFR,,,,,,
+ECB,EXPSR_CLSS,EXPSR_CLSS,,,,,,
+ECB,FDCRY,FDCRY,,,,,,
+ECB,FLD_NN_PRFRMNG_EXT_CRTR_INDCTR,FLD_NN_PRFRMNG_EXT_CRTR_INDCTR,,,,,,
+ECB,FNNCL_CNTRCT_TYP,FNNCL_CNTRCT_TYP,,,,,,
+ECB,FRBRNC_MSR_GRNTD_DRNG_RFRNC_PRD,FRBRNC_MSR_GRNTD_DRNG_RFRNC_PRD,,,,,,
+ECB,FRBRNC_MSR_TYP,FRBRNC_MSR_TYP,,,,,,
+ECB,FRBRNC_STTS,FRBRNC_STTS,,,,,,
+ECB,FRQNCY,FRQNCY,,,,,,
+ECB,FRTB_RSK_MSR_TYP,FRTB_RSK_MSR_TYP,,,,,,
+ECB,FVO_DSGNTN,FVO_DSGNTN,,,,,,
+ECB,FV_HRRCHY,FV_HRRCHY,,,,,,
+ECB,Float,Float,,Float,Float,,,
+ECB,GGRPHCL_ARS,GGRPHCL_ARS,,,,,,
+ECB,GIRR_RSK_FCTR,GIRR_RSK_FCTR,,,,,,
+ECB,GRP_KY_MNGMNT_PRSNNL_ASSGNMNT_TYP,GRP_KY_MNGMNT_PRSNNL_ASSGNMNT_TYP,,,,,,
+ECB,GRP_RL_TYP,GRP_RL_TYP,,,,,,
+ECB,GRP_TYP,GRP_TYP,,,,,,
+ECB,HDGD_PRTFL_ASST_LBLTY_INDCTR,HDGD_PRTFL_ASST_LBLTY_INDCTR,,,,,,
+ECB,HLD_SL_INDCTR,HLD_SL_INDCTR,,,,,,
+ECB,HQLA_INDCTR,HQLA_INDCTR,,,,,,
+ECB,IMMDT_PRNT_ANCRDT_INDCTR,IMMDT_PRNT_ANCRDT_INDCTR,,,,,,
+ECB,IMPRMNT_ASSSSMNT_MTHD,IMPRMNT_ASSSSMNT_MTHD,,,,,,
+ECB,INSTRMNT_CLLTRL_ASSGNMNT_TYP,INSTRMNT_CLLTRL_ASSGNMNT_TYP,,,,,,
+ECB,INSTRMNT_CLLTRL_INSTRMNT_ASSGNMNT_TYP,INSTRMNT_CLLTRL_INSTRMNT_ASSGNMNT_TYP,,,,,,
+ECB,INSTRMNT_ENTTY_RL_ASSGNMNT_TYP,INSTRMNT_ENTTY_RL_ASSGNMNT_TYP,,,,,,
+ECB,INSTRMNT_PRTCTN_ARRNGMNT_ASSGNMNT_TYP,INSTRMNT_PRTCTN_ARRNGMNT_ASSGNMNT_TYP,,,,,,
+ECB,INSTTTNL_SCTR,INSTTTNL_SCTR,,,,,,
+ECB,INSTTTNL_SCTR_CNTRL,INSTTTNL_SCTR_CNTRL,,,,,,
+ECB,INVSTMNT_PRPRTY_TYP,INVSTMNT_PRPRTY_TYP,,,,,,
+ECB,Integer,Integer,,Integer,Integer,,,
+ECB,LGL_FRM,LGL_FRM,,,,,,
+ECB,LGL_PRCDNG_STTS,LGL_PRCDNG_STTS,,,,,,
+ECB,LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_TYP,LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_ACCNTNG_CLSSFCTN_FNNCL_ASSTS_ASSGNMNT_TYP,,,,,,
+ECB,LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP,LNG_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP,,,,,,
+ECB,LTGTN_STTS,LTGTN_STTS,,,,,,
+ECB,LW_CRDT_RSK_INDCTR,LW_CRDT_RSK_INDCTR,,,,,,
+ECB,MLTLTRL_DVLPMNT_BNK_INDCTR,MLTLTRL_DVLPMNT_BNK_INDCTR,,,,,,
+ECB,MLTPL_FRBRNC_MSR_INDCTR,MLTPL_FRBRNC_MSR_INDCTR,,,,,,
+ECB,MN_DBTR_INDCTR,MN_DBTR_INDCTR,,,,,,
+ECB,MN_DPST_TKNG_CRPRTN_INDCTR,MN_DPST_TKNG_CRPRTN_INDCTR,,,,,,
+ECB,MN_GRNTR_INDCTR,MN_GRNTR_INDCTR,,,,,,
+ECB,MN_LSS_INDCTR,MN_LSS_INDCTR,,,,,,
+ECB,MRKT_CP,MRKT_CP,,,,,,
+ECB,MSRMNT_MTHD,MSRMNT_MTHD,,,,,,
+ECB,MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_TYP,MSTR_AGRMNT_ENTTY_RL_ASSGNMNT_TYP,,,,,,
+ECB,MSTR_AGRMNT_TYP,MSTR_AGRMNT_TYP,,,,,,
+ECB,NGTBL_SCRTY,NGTBL_SCRTY,,,,,,
+ECB,NN_PRFRMNG_PRR_FRBRNC_INDCTR,NN_PRFRMNG_PRR_FRBRNC_INDCTR,,,,,,
+ECB,OBSRVD_AGNT_INDCTR_ANCRDT_RPRTNG,OBSRVD_AGNT_INDCTR_ANCRDT_RPRTNG,,,,,,
+ECB,OPTN_TYP,OPTN_TYP,,,,,,
+ECB,OTC_DRVTV_HDG_ACCNTNG_STNDRD_TYP,OTC_DRVTV_HDG_ACCNTNG_STNDRD_TYP,,,,,,
+ECB,OVRDRFT_INDCTR,OVRDRFT_INDCTR,,,,,,
+ECB,OWN_CMPNY_INVSTMNT_INDCTR,OWN_CMPNY_INVSTMNT_INDCTR,,,,,,
+ECB,PLLNG_EFFCT_INDCTR,PLLNG_EFFCT_INDCTR,,,,,,
+ECB,PLNNNG_PRMSSN_INDCTR,PLNNNG_PRMSSN_INDCTR,,,,,,
+ECB,PRDNTL_PRTFL,PRDNTL_PRTFL,,,,,,
+ECB,PRFRMNG_FRBRN_EXPSR_PRBTN_RCLD_NN_PRFRMNG_INDCTR,PRFRMNG_FRBRN_EXPSR_PRBTN_RCLD_NN_PRFRMNG_INDCTR,,,,,,
+ECB,PRFRMNG_STTS_RSN,PRFRMNG_STTS_RSN,,,,,,
+ECB,PRMRY_ASST_CLSSFCTN,PRMRY_ASST_CLSSFCTN,,,,,,
+ECB,PRMRY_ASST_CLSS_CVR_PL,PRMRY_ASST_CLSS_CVR_PL,,,,,,
+ECB,PRMRY_ISSR_INDCTR,PRMRY_ISSR_INDCTR,,,,,,
+ECB,PRMRY_PRTCTN_PRVDR_INDCTR,PRMRY_PRTCTN_PRVDR_INDCTR,,,,,,
+ECB,PRPS,PRPS,,,,,,
+ECB,PRTCTN_ARRNGMNT_RL_TYP,PRTCTN_ARRNGMNT_RL_TYP,,,,,,
+ECB,PRTCTN_ARRNGMNT_RS_INDCTR,PRTCTN_ARRNGMNT_RS_INDCTR,,,,,,
+ECB,PRTCTN_VLTN_APPRCH,PRTCTN_VLTN_APPRCH,,,,,,
+ECB,PRTCTN_VL_TYP,PRTCTN_VL_TYP,,,,,,
+ECB,PRTY_CD_TYP,PRTY_CD_TYP,,,,,,
+ECB,PRTY_TYP,PRTY_TYP,,,,,,
+ECB,PRTY_TYP_ADDRSS,PRTY_TYP_ADDRSS,,,,,,
+ECB,RCGNTN_STTS,RCGNTN_STTS,,,,,,
+ECB,RCRS,RCRS,,,,,,
+ECB,RFRNC_RT,RFRNC_RT,,,,,,
+ECB,RGSTRD_PHYSCL_CLLTRL_INDCTR,RGSTRD_PHYSCL_CLLTRL_INDCTR,,,,,,
+ECB,RPRCHS_AGRMNT_TYP,RPRCHS_AGRMNT_TYP,,,,,,
+ECB,RPYMNT_RGHTS,RPYMNT_RGHTS,,,,,,
+ECB,RSCRTSTN_INDCTR,RSCRTSTN_INDCTR,,,,,,
+ECB,RSK_CLSS,RSK_CLSS,,,,,,
+ECB,RTL_EXPSR_ACCRDNG_CRR_INDCTR,RTL_EXPSR_ACCRDNG_CRR_INDCTR,,,,,,
+ECB,RTND_DBT_SCRTY_INDCTR,RTND_DBT_SCRTY_INDCTR,,,,,,
+ECB,RTNG_GRD_CRDT_QLTY,RTNG_GRD_CRDT_QLTY,,,,,,
+ECB,RTNG_GRD_TYP,RTNG_GRD_TYP,,,,,,
+ECB,RTNG_SYSTM_TYP,RTNG_SYSTM_TYP,,,,,,
+ECB,RVCBL_INDCTR,RVCBL_INDCTR,,,,,,
+ECB,RVLVNG_LN_INDCTR,RVLVNG_LN_INDCTR,,,,,,
+ECB,SBJCT_IMPRMNT_INDCTR,SBJCT_IMPRMNT_INDCTR,,,,,,
+ECB,SBJCT_OPRTNG_LS_INDCTR,SBJCT_OPRTNG_LS_INDCTR,,,,,,
+ECB,SBRDNTD_DBT,SBRDNTD_DBT,,,,,,
+ECB,SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_TYP,SBSDRY_JNT_VNTR_ASSCT_OTHR_ORGNSTN_ASSGNMNT_TYP,,,,,,
+ECB,SCRTSTN_OTHR_CRDT_TRNSFR_TYP,SCRTSTN_OTHR_CRDT_TRNSFR_TYP,,,,,,
+ECB,SCRTSTN_TRNCH_TYP,SCRTSTN_TRNCH_TYP,,,,,,
+ECB,SCRTY_ENTTY_RL_ASSGNMNT_TYP,SCRTY_ENTTY_RL_ASSGNMNT_TYP,,,,,,
+ECB,SCRTY_EXCHNG_TRDBL_DRVTV_PSTN_TYP,SCRTY_EXCHNG_TRDBL_DRVTV_PSTN_TYP,,,,,,
+ECB,SCRTY_EXCHNG_TRDBL_DRVTV_TYP,SCRTY_EXCHNG_TRDBL_DRVTV_TYP,,,,,,
+ECB,SCRTY_GRNT_LVL,SCRTY_GRNT_LVL,,,,,,
+ECB,SCRTY_LVL,SCRTY_LVL,,,,,,
+ECB,SCRTY_PSTN_RL_TYP,SCRTY_PSTN_RL_TYP,,,,,,
+ECB,SCRTY_RNK_LVL,SCRTY_RNK_LVL,,,,,,
+ECB,SCRTY_SCRTY_RPRCHS_AGRMNT_CMPNNT_ASSGNMNT_TYP,SCRTY_SCRTY_RPRCHS_AGRMNT_CMPNNT_ASSGNMNT_TYP,,,,,,
+ECB,SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_TYP,SCTRY_BRRWNG_LNDNG_TRNSCTN_INCLDNG_CSH_CLLTRL_TYP,,,,,,
+ECB,SFTWR_ASST_INDCTR,SFTWR_ASST_INDCTR,,,,,,
+ECB,SGNFCNT_ASST_CLSS,SGNFCNT_ASST_CLSS,,,,,,
+ECB,SGNFCNT_RSK_TRNSFR_INDCTR,SGNFCNT_RSK_TRNSFR_INDCTR,,,,,,
+ECB,SHCK_DRCTN,SHCK_DRCTN,,,,,,
+ECB,SHRT_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP,SHRT_SCRTY_PSTN_PRDNTL_PRTFL_ASSGNMNT_TYP,,,,,,
+ECB,SHRT_TRM_CRDT_ASSMNT_INDCTR,SHRT_TRM_CRDT_ASSMNT_INDCTR,,,,,,
+ECB,SNDCTN_SB_PRTCPTN_MMBR_INSTRMNT_INDCTR,SNDCTN_SB_PRTCPTN_MMBR_INSTRMNT_INDCTR,,,,,,
+ECB,SPCLSD_LNDNG_EXPSR_TYP,SPCLSD_LNDNG_EXPSR_TYP,,,,,,
+ECB,SRC_ENCMBRNC,SRC_ENCMBRNC,,,,,,
+ECB,STRCTRD_NT_INDCTR,STRCTRD_NT_INDCTR,,,,,,
+ECB,STS_SCRTSTN_INDCTR,STS_SCRTSTN_INDCTR,,,,,,
+ECB,STTS,STTS,,,,,,
+ECB,SZ,SZ,,,,,,
+ECB,String,String,,String,String,,,
+ECB,TM_INTRVL,TM_INTRVL,,,,,,
+ECB,TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_TYP,TRNCH_SYNTHTC_SCRTSTN_WTHT_SSPE_TYP,,,,,,
+ECB,TRNSFRRD_ASST_LG_INSTRMNT_ASSGNMNT_TYP,TRNSFRRD_ASST_LG_INSTRMNT_ASSGNMNT_TYP,,,,,,
+ECB,TYP_ACCNTNG_ITM,TYP_ACCNTNG_ITM,,,,,,
+ECB,TYP_AMRTSTN,TYP_AMRTSTN,,,,,,
+ECB,TYP_ASST_SCRTSTN,TYP_ASST_SCRTSTN,,,,,,
+ECB,TYP_CMMTMNT,TYP_CMMTMNT,,,,,,
+ECB,TYP_HDG,TYP_HDG,,,,,,
+ECB,TYP_INSTRMNT,TYP_INSTRMNT,,,,,,
+ECB,TYP_INSTRMNT_ID,TYP_INSTRMNT_ID,,,,,,
+ECB,TYP_INTRST_RT,TYP_INTRST_RT,,,,,,
+ECB,TYP_PRDCT,TYP_PRDCT,,,,,,
+ECB,TYP_PRTCTN,TYP_PRTCTN,,,,,,
+ECB,TYP_RSK,TYP_RSK,,,,,,
+ECB,UNDR_CNSTRCTN_INDCTR,UNDR_CNSTRCTN_INDCTR,,,,,,

@@ -1,221 +1,158 @@
 MAINTENANCE_AGENCY_ID,MEMBER_MAPPING_ID,NAME,CODE
-ECB,DPM_BAS_MCY_AE_F32.02.b,"Mapping of Base, Main category for the template AEF32.02.b",DPM_BAS_MCY_AE_F32.02.b
-ECB,DPM_MCG_AE,Mapping of Main category of collateral or guarantee received for the template AE,DPM_MCG_AE
-ECB,DPM_BAS_EXC_MCY_AE_F32.04.b,"Mapping of Base, Exposure class, Main category for the template AEF32.04.b",DPM_BAS_EXC_MCY_AE_F32.04.b
-ECB,DPM_ei328,Mapping of Primary asset class of cover pool,DPM_ei328
-ECB,DPM_ei138,Mapping of Group structure,DPM_ei138
-ECB,DPM_ei152,Mapping of Jurisdiction of incorporation,DPM_ei152
-ECB,DPM_ei218,Mapping of Sector,DPM_ei218
-ECB,DPM_ei219,Mapping of Sector of the counterparty,DPM_ei219
-ECB,DPM_ei364,Mapping of Accounting consolidation code (IFRS Group),DPM_ei364
-ECB,DPM_ei365,Mapping of Accounting consolidation code (CRR Group),DPM_ei365
+ECB,DPM_ACT,Mapping of Accounting treatment,DPM_ACT
+ECB,DPM_ALO,Mapping of Type of allowance,DPM_ALO
+ECB,DPM_ALO_F_12.00,Mapping of Type of allowance for the template F12.00,DPM_ALO_F_12.00
+ECB,DPM_APL,Mapping of Accounting portfolio,DPM_APL
 ECB,DPM_BAS,Mapping of Base,DPM_BAS
-ECB,DPM_BAS_APL,"Mapping of Accounting portfolio, Base",DPM_BAS_APL
-ECB,DPM_CPS,Mapping of Counterparty sector,DPM_CPS
-ECB,DPM_MCB_MCY,"Mapping of Main category, Instrument",DPM_MCB_MCY
-ECB,DPM_MCG,Mapping of Main category of collateral or guarantee received,DPM_MCG
-ECB,DPM_PUR,Mapping of Purpose,DPM_PUR
-ECB,DPM_CPS_CPZ,"Mapping of Counterparty sector, Size of the counterparty",DPM_CPS_CPZ
-ECB,DPM_MCB_MCY_2.9,"Mapping of Main category, Instrument for the template 2.9",DPM_MCB_MCY_2.9
-ECB,DPM_PFS,Mapping of Performing status,DPM_PFS
-ECB,DPM_REF,Mapping of Reference date or period,DPM_REF
-ECB,DPM_FBS,Mapping of Forbearance status,DPM_FBS
-ECB,DPM_MCB_MCY_MCG,"Mapping of Main category, Main category of collateral or guarantee received, Instrument",DPM_MCB_MCY_MCG
-ECB,DPM_PFS_TPD,"Mapping of Performing status, Time past due",DPM_PFS_TPD
-ECB,DPM_FLW,Mapping of Flows (direction),DPM_FLW
-ECB,DPM_CPS_CPZ_MCC_MCG_MCY_PUR,"Mapping of Main category of collateral or guarantee given, Main category, Counterparty sector, Main category of collateral or guarantee received, Purpose, Size of the counterparty",DPM_CPS_CPZ_MCC_MCG_MCY_PUR
-ECB,DPM_BAS_MCY,"Mapping of Base, Main category",DPM_BAS_MCY
-ECB,DPM_MCV_F_16.08,Mapping of (Sub-)Type of expense for the template F16.08,DPM_MCV_F_16.08
+ECB,DPM_BAS_AE_F32.03.a,Mapping of Base for the template AEF32.03.a,DPM_BAS_AE_F32.03.a
 ECB,DPM_BAS_ALO_IMS_APL,"Mapping of Base, Accounting portfolio, Impairment status, Type of allowance",DPM_BAS_ALO_IMS_APL
-ECB,DPM_CPS_CPZ_MCY_TMA,"Mapping of Main category, Counterparty sector, Size of the counterparty, Type of market",DPM_CPS_CPZ_MCY_TMA
-ECB,DPM_LAC,Mapping of Location of the activities,DPM_LAC
-ECB,DPM_MCE_APL,"Mapping of Main category that generates income or expenses, Accounting portfolio",DPM_MCE_APL
-ECB,DPM_CTL_MCG,"Mapping of Collateralisation level, Main category of collateral or guarantee received",DPM_CTL_MCG
-ECB,DPM_FLT_FLW,"Mapping of Flows (direction), Flows (type / source / reason)",DPM_FLT_FLW
-ECB,DPM_NPE,Mapping of Details on NPE classification,DPM_NPE
-ECB,DPM_PIR,Mapping of Date / period of initial recognition,DPM_PIR
-ECB,DPM_POV,Mapping of Date / period of valuation,DPM_POV
-ECB,DPM_TIE,Mapping of Time elapsed since initial recognition,DPM_TIE
-ECB,DPM_TYA_F_24.01,Mapping of Type of activity for the template F24.01,DPM_TYA_F_24.01
+ECB,DPM_BAS_APL,"Mapping of Accounting portfolio, Base",DPM_BAS_APL
+ECB,DPM_BAS_APL_2.9,"Mapping of Accounting portfolio, Base for the template 2.9",DPM_BAS_APL_2.9
+ECB,DPM_BAS_CNO_MCB_MCF_MCY_REC,"Mapping of Base, Instrument, Main category, Controlling and non-controlling owners, To be reclassified to profit or loss, Hedged or hedging instrument",DPM_BAS_CNO_MCB_MCF_MCY_REC
+ECB,DPM_BAS_CNO_MCB_MCY_APL,"Mapping of Main category, Instrument, Accounting portfolio, Base, Controlling and non-controlling owners",DPM_BAS_CNO_MCB_MCY_APL
+ECB,DPM_BAS_CPC_ECC_EXC_MCG_MCY_AE_F32.02.a,"Mapping of Base, Exposure class of the collateral received, Exposure class, Main category of collateral or guarantee received, Main category, Counterparty sector of the collateral for the template AEF32.02.a",DPM_BAS_CPC_ECC_EXC_MCG_MCY_AE_F32.02.a
+ECB,DPM_BAS_CPE_CPS_MCS_MCY_AE_F32.04.a,"Mapping of Base, Main category, Main category of the source of encumbrance, Counterparty sector of the source of encumbrance, Counterparty sector for the template AEF32.04.a",DPM_BAS_CPE_CPS_MCS_MCY_AE_F32.04.a
+ECB,DPM_BAS_CPS_CPZ_MCB_MCG_MCY_MCP_PUR_APL,"Mapping of Base, Main category, Main category that generates the provision, Accounting portfolio, Counterparty sector, Size of the counterparty, Main category of collateral or guarantee received, Purpose, Instrument",DPM_BAS_CPS_CPZ_MCB_MCG_MCY_MCP_PUR_APL
+ECB,DPM_BAS_CPS_CPZ_MCG_MCY_MCP_PUR_APL,"Mapping of Base, Main category, Main category that generates the provision, Accounting portfolio, Counterparty sector, Size of the counterparty, Main category of collateral or guarantee received, Purpose",DPM_BAS_CPS_CPZ_MCG_MCY_MCP_PUR_APL
+ECB,DPM_BAS_CPS_EXC_MCG_MCY_AE_F32.01,"Mapping of Base, Exposure class, Main category of collateral or guarantee received, Main category, Counterparty sector for the template AEF32.01",DPM_BAS_CPS_EXC_MCG_MCY_AE_F32.01
+ECB,DPM_BAS_CPS_EXC_MCY_AE_F36.01.a,"Mapping of Base, Counterparty sector, Exposure class, Main category for the template AEF36.01.a",DPM_BAS_CPS_EXC_MCY_AE_F36.01.a
+ECB,DPM_BAS_CPS_MCB_MCY_APL,"Mapping of Base, Main category, Counterparty sector, Accounting portfolio, Instrument",DPM_BAS_CPS_MCB_MCY_APL
+ECB,DPM_BAS_CPS_MCY,"Mapping of Base, Main category, Counterparty sector",DPM_BAS_CPS_MCY
+ECB,DPM_BAS_CPS_MCY_APL,"Mapping of Counterparty sector, Main category, Accounting portfolio, Base",DPM_BAS_CPS_MCY_APL
+ECB,DPM_BAS_CRA_AE_F35.00.c,"Mapping of Base, Credit rating agency /Covered bond regime for the template AEF35.00.c",DPM_BAS_CRA_AE_F35.00.c
+ECB,DPM_BAS_EXC_MCY_AE_F32.04.b,"Mapping of Base, Exposure class, Main category for the template AEF32.04.b",DPM_BAS_EXC_MCY_AE_F32.04.b
+ECB,DPM_BAS_MCB_MCY,"Mapping of Base, Instrument, Main category",DPM_BAS_MCB_MCY
+ECB,DPM_BAS_MCB_MCY_APL,"Mapping of Base, Main category, Accounting portfolio, Instrument",DPM_BAS_MCB_MCY_APL
+ECB,DPM_BAS_MCB_MCY_APL_F_42.00,"Mapping of Base, Main category, Accounting portfolio, Instrument for the template F42.00",DPM_BAS_MCB_MCY_APL_F_42.00
+ECB,DPM_BAS_MCE_MCY_TYA,"Mapping of Main category, Base, Main category that generates income or expenses, Type of activity",DPM_BAS_MCE_MCY_TYA
+ECB,DPM_BAS_MCE_MCY_TYA_2.9,"Mapping of Main category, Base, Main category that generates income or expenses, Type of activity for the template 2.9",DPM_BAS_MCE_MCY_TYA_2.9
+ECB,DPM_BAS_MCF_MCH_MCY,"Mapping of Base, Main category, Main category of hedged item, Hedged or hedging instrument",DPM_BAS_MCF_MCH_MCY
+ECB,DPM_BAS_MCG_MCY_AE_F33.00.a,"Mapping of Base, Main category, Main category of collateral or guarantee received for the template AEF33.00.a",DPM_BAS_MCG_MCY_AE_F33.00.a
+ECB,DPM_BAS_MCP_MCY,"Mapping of Base, Main category, Main category that generates the provision",DPM_BAS_MCP_MCY
+ECB,DPM_BAS_MCS_MCY_AE_F35.00.a,"Mapping of Base, Main category, Main category of the source of encumbrance for the template AEF35.00.a",DPM_BAS_MCS_MCY_AE_F35.00.a
+ECB,DPM_BAS_MCV_MCY_TRE,"Mapping of Base, Main category, (Sub-)Type of expense, Type of remuneration",DPM_BAS_MCV_MCY_TRE
+ECB,DPM_BAS_MCY,"Mapping of Base, Main category",DPM_BAS_MCY
+ECB,DPM_BAS_MCY_AE_F32.02.b,"Mapping of Base, Main category for the template AEF32.02.b",DPM_BAS_MCY_AE_F32.02.b
+ECB,DPM_BAS_MCY_APL,"Mapping of Main category, Accounting portfolio, Base",DPM_BAS_MCY_APL
+ECB,DPM_BAS_MCY_APL_RPR,"Mapping of Main category, Accounting portfolio, Base, Related parties/Relationships",DPM_BAS_MCY_APL_RPR
+ECB,DPM_BAS_MCY_PFS,"Mapping of Base, Main category, Performing status",DPM_BAS_MCY_PFS
+ECB,DPM_BAS_MCY_SST_AE_F32.03.b,"Mapping of Base, Main category, Securitisation structure for the template AEF32.03.b",DPM_BAS_MCY_SST_AE_F32.03.b
+ECB,DPM_BAS_MDC_MCP_MCY_RPR,"Mapping of Base, Main category, Main category that generates the provision, Main category of the Defined benefit plan assets, Related parties/Relationships for the template MDC",DPM_BAS_MDC_MCP_MCY_RPR
 ECB,DPM_CNO,Mapping of Controlling and non-controlling owners,DPM_CNO
-ECB,DPM_TRI_F_02.00,Mapping of Type of risk for the template F02.00,DPM_TRI_F_02.00
+ECB,DPM_CNO_F_46.00,Mapping of Controlling and non-controlling owners for the template F46.00,DPM_CNO_F_46.00
+ECB,DPM_CPC_ECC_MCG_AE_F36.01.b,"Mapping of Main category of collateral or guarantee received, Exposure class of the collateral received, Counterparty sector of the collateral for the template AEF36.01.b",DPM_CPC_ECC_MCG_AE_F36.01.b
+ECB,DPM_CPC_ECC_MCG_AE_F36.02.b,"Mapping of Main category of collateral or guarantee received, Exposure class of the collateral received, Counterparty sector of the collateral for the template AEF36.02.b",DPM_CPC_ECC_MCG_AE_F36.02.b
+ECB,DPM_CPE_MCS_AE_F32.04.b,"Mapping of Counterparty sector of the source of encumbrance, Main category of the source of encumbrance for the template AEF32.04.b",DPM_CPE_MCS_AE_F32.04.b
+ECB,DPM_CPS,Mapping of Counterparty sector,DPM_CPS
+ECB,DPM_CPS_CPZ,"Mapping of Counterparty sector, Size of the counterparty",DPM_CPS_CPZ
+ECB,DPM_CPS_CPZ_MCB_MCG_MCY_PUR,"Mapping of Main category, Instrument, Counterparty sector, Size of the counterparty, Main category of collateral or guarantee received, Purpose",DPM_CPS_CPZ_MCB_MCG_MCY_PUR
+ECB,DPM_CPS_CPZ_MCB_MCY_PUR,"Mapping of Main category, Instrument, Counterparty sector, Size of the counterparty, Purpose",DPM_CPS_CPZ_MCB_MCY_PUR
+ECB,DPM_CPS_CPZ_MCC_MCG_MCY_PUR,"Mapping of Main category of collateral or guarantee given, Main category, Counterparty sector, Main category of collateral or guarantee received, Purpose, Size of the counterparty",DPM_CPS_CPZ_MCC_MCG_MCY_PUR
+ECB,DPM_CPS_CPZ_MCG_MCY_PUR,"Mapping of Main category, Counterparty sector, Size of the counterparty, Main category of collateral or guarantee received, Purpose",DPM_CPS_CPZ_MCG_MCY_PUR
+ECB,DPM_CPS_CPZ_MCY,"Mapping of Main category, Counterparty sector, Size of the counterparty",DPM_CPS_CPZ_MCY
+ECB,DPM_CPS_CPZ_MCY_TMA,"Mapping of Main category, Counterparty sector, Size of the counterparty, Type of market",DPM_CPS_CPZ_MCY_TMA
+ECB,DPM_CPS_MCB_MCE_TYH_IMS_APL_PUR,"Mapping of Main category that generates income or expenses, Counterparty sector, Type of hedge, Purpose, Instrument, Impairment status for the template APL",DPM_CPS_MCB_MCE_TYH_IMS_APL_PUR
+ECB,DPM_CPS_MCB_MCU_MCY,"Mapping of Main category, Instrument, Main category of the underlying, Counterparty sector",DPM_CPS_MCB_MCU_MCY
+ECB,DPM_CPS_MCB_MCY,"Mapping of Main category, Counterparty sector, Instrument",DPM_CPS_MCB_MCY
+ECB,DPM_CPS_MCB_MCY_TMA_TRI,"Mapping of Main category, Counterparty sector, Type of risk, Type of market, Instrument",DPM_CPS_MCB_MCY_TMA_TRI
+ECB,DPM_CPS_MCE_TYH_IMS_APL,"Mapping of Main category that generates income or expenses, Accounting portfolio, Counterparty sector, Type of hedge, Impairment status",DPM_CPS_MCE_TYH_IMS_APL
+ECB,DPM_CPS_MCP,"Mapping of Main category that generates the provision, Counterparty sector",DPM_CPS_MCP
+ECB,DPM_CPS_MCY,"Mapping of Main category, Counterparty sector",DPM_CPS_MCY
+ECB,DPM_CPS_MCY_TMA,"Mapping of Main category, Counterparty sector, Type of market",DPM_CPS_MCY_TMA
+ECB,DPM_CRA_AE,Mapping of Credit rating agency /Covered bond regime for the template AE,DPM_CRA_AE
+ECB,DPM_CSC_AE,Mapping of Contingent scenario/Assumptions used for the template AE,DPM_CSC_AE
+ECB,DPM_CTL_MCG,"Mapping of Collateralisation level, Main category of collateral or guarantee received",DPM_CTL_MCG
+ECB,DPM_CUS_AE,Mapping of Currency with significant liabilities for the template AE,DPM_CUS_AE
+ECB,DPM_DPS,Mapping of Derivatives Purchased/Sold,DPM_DPS
+ECB,DPM_ENC_AE,Mapping of Encumbrance for the template AE,DPM_ENC_AE
+ECB,DPM_ENC_AE_F32.02.a,Mapping of Encumbrance for the template AEF32.02.a,DPM_ENC_AE_F32.02.a
+ECB,DPM_ENC_LQA_AE_F32.01,"Mapping of Encumbrance, Liquidity quality of assets for the template AEF32.01",DPM_ENC_LQA_AE_F32.01
+ECB,DPM_EUT_AE,Mapping of Time of encumbrance for the template AE,DPM_EUT_AE
+ECB,DPM_FBS,Mapping of Forbearance status,DPM_FBS
+ECB,DPM_FBS_F_19.00,Mapping of Forbearance status for the template F19.00,DPM_FBS_F_19.00
+ECB,DPM_FLT_FLW,"Mapping of Flows (direction), Flows (type / source / reason)",DPM_FLT_FLW
+ECB,DPM_FLW,Mapping of Flows (direction),DPM_FLW
+ECB,DPM_FRS,Mapping of Financial reporting standard,DPM_FRS
+ECB,DPM_FRS_IMS_PFS_TPD,"Mapping of Impairment status, Performing status, Time past due, Financial reporting standard",DPM_FRS_IMS_PFS_TPD
+ECB,DPM_FVH,Mapping of Fair value hierarchy,DPM_FVH
+ECB,DPM_IMS,Mapping of Impairment status,DPM_IMS
 ECB,DPM_IMS_F_06.01,Mapping of Impairment status for the template F06.01,DPM_IMS_F_06.01
+ECB,DPM_IMS_PFS,"Mapping of Impairment status, Performing status",DPM_IMS_PFS
+ECB,DPM_IMS_PFS_2.9,"Mapping of Impairment status, Performing status for the template 2.9",DPM_IMS_PFS_2.9
+ECB,DPM_IMS_PFS_TPD,"Mapping of Impairment status, Performing status, Time past due",DPM_IMS_PFS_TPD
+ECB,DPM_IMS_PFS_TPD_2.9,"Mapping of Impairment status, Performing status, Time past due for the template 2.9",DPM_IMS_PFS_TPD_2.9
+ECB,DPM_IMS_PFS_TPD_F_18.02,"Mapping of Impairment status, Performing status, Time past due for the template F18.02",DPM_IMS_PFS_TPD_F_18.02
+ECB,DPM_LAC,Mapping of Location of the activities,DPM_LAC
+ECB,DPM_LQA_AE_F32.03.b,Mapping of Liquidity quality of assets for the template AEF32.03.b,DPM_LQA_AE_F32.03.b
+ECB,DPM_LQA_AE_F36.01.c,Mapping of Liquidity quality of assets for the template AEF36.01.c,DPM_LQA_AE_F36.01.c
+ECB,DPM_LQC_AE_F32.02.a,Mapping of Liquidity quality of collateral received for the template AEF32.02.a,DPM_LQC_AE_F32.02.a
+ECB,DPM_LQC_AE_F36.02.c,Mapping of Liquidity quality of collateral received for the template AEF36.02.c,DPM_LQC_AE_F36.02.c
+ECB,DPM_LTG,Mapping of Litigation status,DPM_LTG
+ECB,DPM_MCA,Mapping of Main category of hedging instrument,DPM_MCA
+ECB,DPM_MCB,Mapping of Instrument,DPM_MCB
+ECB,DPM_MCB_MCY,"Mapping of Main category, Instrument",DPM_MCB_MCY
+ECB,DPM_MCB_MCY_2.9,"Mapping of Main category, Instrument for the template 2.9",DPM_MCB_MCY_2.9
+ECB,DPM_MCB_MCY_MCG,"Mapping of Main category, Main category of collateral or guarantee received, Instrument",DPM_MCB_MCY_MCG
+ECB,DPM_MCE,Mapping of Main category that generates income or expenses,DPM_MCE
+ECB,DPM_MCE_APL,"Mapping of Main category that generates income or expenses, Accounting portfolio",DPM_MCE_APL
+ECB,DPM_MCE_APL_PLD,"Mapping of Main category that generates income or expenses, Accounting portfolio, Designation (Fair value option)",DPM_MCE_APL_PLD
+ECB,DPM_MCE_APL_RPR,"Mapping of Main category that generates income or expenses, Accounting portfolio, Related parties/Relationships",DPM_MCE_APL_RPR
+ECB,DPM_MCE_TYH,"Mapping of Main category that generates income or expenses, Type of hedge",DPM_MCE_TYH
+ECB,DPM_MCF,Mapping of Hedged or hedging instrument,DPM_MCF
+ECB,DPM_MCG,Mapping of Main category of collateral or guarantee received,DPM_MCG
+ECB,DPM_MCG_AE,Mapping of Main category of collateral or guarantee received for the template AE,DPM_MCG_AE
+ECB,DPM_MCI,Mapping of Main category provided of Investee,DPM_MCI
+ECB,DPM_MCP,Mapping of Main category that generates the provision,DPM_MCP
+ECB,DPM_MCS_MCY_SST_AE_F32.03.a,"Mapping of Main category, Main category of the source of encumbrance, Securitisation structure for the template AEF32.03.a",DPM_MCS_MCY_SST_AE_F32.03.a
+ECB,DPM_MCT_PLT,"Mapping of Main category of the transferred financial asset to which the liability is associated to, Accounting portfolio of the transferred financial asset to which the liability is associated to",DPM_MCT_PLT
+ECB,DPM_MCV_F_16.08,Mapping of (Sub-)Type of expense for the template F16.08,DPM_MCV_F_16.08
+ECB,DPM_MCV_F_44.03,Mapping of (Sub-)Type of expense for the template F44.03,DPM_MCV_F_44.03
 ECB,DPM_MCY,Mapping of Main category,DPM_MCY
 ECB,DPM_NAC,Mapping of NACE code counterparty,DPM_NAC
-ECB,DPM_APL,Mapping of Accounting portfolio,DPM_APL
-ECB,DPM_BAS_MCY_PFS,"Mapping of Base, Main category, Performing status",DPM_BAS_MCY_PFS
-ECB,DPM_RPR,Mapping of Related parties/Relationships,DPM_RPR
-ECB,DPM_TYR,Mapping of Type of activity of Related parties/Relationships,DPM_TYR
-ECB,DPM_BAS_MCE_MCY_TYA_2.9,"Mapping of Main category, Base, Main category that generates income or expenses, Type of activity for the template 2.9",DPM_BAS_MCE_MCY_TYA_2.9
-ECB,DPM_BAS_MCV_MCY_TRE,"Mapping of Base, Main category, (Sub-)Type of expense, Type of remuneration",DPM_BAS_MCV_MCY_TRE
-ECB,DPM_TSA,Mapping of Type of staff  (RF),DPM_TSA
-ECB,DPM_SUB,Mapping of Subordinated,DPM_SUB
-ECB,DPM_BAS_CPS_MCB_MCY_APL,"Mapping of Base, Main category, Counterparty sector, Accounting portfolio, Instrument",DPM_BAS_CPS_MCB_MCY_APL
-ECB,DPM_MCF,Mapping of Hedged or hedging instrument,DPM_MCF
-ECB,DPM_TYH_F_20.01,Mapping of Type of hedge for the template F20.01,DPM_TYH_F_20.01
-ECB,DPM_BAS_MCF_MCH_MCY,"Mapping of Base, Main category, Main category of hedged item, Hedged or hedging instrument",DPM_BAS_MCF_MCH_MCY
-ECB,DPM_MCA,Mapping of Main category of hedging instrument,DPM_MCA
-ECB,DPM_MCE,Mapping of Main category that generates income or expenses,DPM_MCE
-ECB,DPM_REC,Mapping of To be reclassified to profit or loss,DPM_REC
-ECB,DPM_LTG,Mapping of Litigation status,DPM_LTG
-ECB,DPM_BAS_MCB_MCY_APL_F_42.00,"Mapping of Base, Main category, Accounting portfolio, Instrument for the template F42.00",DPM_BAS_MCB_MCY_APL_F_42.00
-ECB,DPM_CPS_MCB_MCY,"Mapping of Main category, Counterparty sector, Instrument",DPM_CPS_MCB_MCY
-ECB,DPM_IMS,Mapping of Impairment status,DPM_IMS
-ECB,DPM_TPD,Mapping of Time past due,DPM_TPD
-ECB,DPM_BAS_MCY_APL,"Mapping of Main category, Accounting portfolio, Base",DPM_BAS_MCY_APL
-ECB,DPM_CPS_MCB_MCE_TYH_IMS_APL_PUR,"Mapping of Main category that generates income or expenses, Counterparty sector, Type of hedge, Purpose, Instrument, Impairment status for the template APL",DPM_CPS_MCB_MCE_TYH_IMS_APL_PUR
-ECB,DPM_MCV_F_44.03,Mapping of (Sub-)Type of expense for the template F44.03,DPM_MCV_F_44.03
-ECB,DPM_CPS_CPZ_MCY,"Mapping of Main category, Counterparty sector, Size of the counterparty",DPM_CPS_CPZ_MCY
-ECB,DPM_TRI_F_04.03.1,Mapping of Type of risk for the template F04.03.1,DPM_TRI_F_04.03.1
-ECB,DPM_BAS_CPS_MCY,"Mapping of Base, Main category, Counterparty sector",DPM_BAS_CPS_MCY
-ECB,DPM_IMS_PFS_2.9,"Mapping of Impairment status, Performing status for the template 2.9",DPM_IMS_PFS_2.9
-ECB,DPM_BAS_APL_2.9,"Mapping of Accounting portfolio, Base for the template 2.9",DPM_BAS_APL_2.9
-ECB,DPM_CPS_CPZ_MCB_MCG_MCY_PUR,"Mapping of Main category, Instrument, Counterparty sector, Size of the counterparty, Main category of collateral or guarantee received, Purpose",DPM_CPS_CPZ_MCB_MCG_MCY_PUR
-ECB,DPM_FRS_IMS_PFS_TPD,"Mapping of Impairment status, Performing status, Time past due, Financial reporting standard",DPM_FRS_IMS_PFS_TPD
-ECB,DPM_MCB,Mapping of Instrument,DPM_MCB
-ECB,DPM_FBS_F_19.00,Mapping of Forbearance status for the template F19.00,DPM_FBS_F_19.00
-ECB,DPM_IMS_PFS,"Mapping of Impairment status, Performing status",DPM_IMS_PFS
-ECB,DPM_CPS_CPZ_MCB_MCY_PUR,"Mapping of Main category, Instrument, Counterparty sector, Size of the counterparty, Purpose",DPM_CPS_CPZ_MCB_MCY_PUR
-ECB,DPM_CPS_MCB_MCU_MCY,"Mapping of Main category, Instrument, Main category of the underlying, Counterparty sector",DPM_CPS_MCB_MCU_MCY
-ECB,DPM_BAS_CPS_CPZ_MCB_MCG_MCY_MCP_PUR_APL,"Mapping of Base, Main category, Main category that generates the provision, Accounting portfolio, Counterparty sector, Size of the counterparty, Main category of collateral or guarantee received, Purpose, Instrument",DPM_BAS_CPS_CPZ_MCB_MCG_MCY_MCP_PUR_APL
-ECB,DPM_IMS_PFS_TPD_2.9,"Mapping of Impairment status, Performing status, Time past due for the template 2.9",DPM_IMS_PFS_TPD_2.9
+ECB,DPM_NPE,Mapping of Details on NPE classification,DPM_NPE
 ECB,DPM_PAF,Mapping of Date / period of application of forbearance measure,DPM_PAF
-ECB,DPM_TFM,Mapping of Type of forbearance measure,DPM_TFM
-ECB,DPM_FRS,Mapping of Financial reporting standard,DPM_FRS
-ECB,DPM_MCP,Mapping of Main category that generates the provision,DPM_MCP
-ECB,DPM_ALO,Mapping of Type of allowance,DPM_ALO
-ECB,DPM_RCP,Mapping of Residence of counterparty,DPM_RCP
-ECB,DPM_IMS_PFS_TPD_F_18.02,"Mapping of Impairment status, Performing status, Time past due for the template F18.02",DPM_IMS_PFS_TPD_F_18.02
+ECB,DPM_PFS,Mapping of Performing status,DPM_PFS
 ECB,DPM_PFS_F_26.00.b,Mapping of Performing status for the template F26.00.b,DPM_PFS_F_26.00.b
-ECB,DPM_CPS_MCE_TYH_IMS_APL,"Mapping of Main category that generates income or expenses, Accounting portfolio, Counterparty sector, Type of hedge, Impairment status",DPM_CPS_MCE_TYH_IMS_APL
-ECB,DPM_TIS,Mapping of Transfer between impairment stages,DPM_TIS
-ECB,DPM_CPS_MCY_TMA,"Mapping of Main category, Counterparty sector, Type of market",DPM_CPS_MCY_TMA
-ECB,DPM_CPS_MCP,"Mapping of Main category that generates the provision, Counterparty sector",DPM_CPS_MCP
-ECB,DPM_BAS_MCP_MCY,"Mapping of Base, Main category, Main category that generates the provision",DPM_BAS_MCP_MCY
-ECB,DPM_BAS_MDC_MCP_MCY_RPR,"Mapping of Base, Main category, Main category that generates the provision, Main category of the Defined benefit plan assets, Related parties/Relationships for the template MDC",DPM_BAS_MDC_MCP_MCY_RPR
-ECB,DPM_TRI,Mapping of Type of risk,DPM_TRI
-ECB,DPM_MCI,Mapping of Main category provided of Investee,DPM_MCI
-ECB,DPM_TMA,Mapping of Type of market,DPM_TMA
-ECB,DPM_CPS_MCY,"Mapping of Main category, Counterparty sector",DPM_CPS_MCY
-ECB,DPM_TYH,Mapping of Type of hedge,DPM_TYH
-ECB,DPM_BAS_CNO_MCB_MCY_APL,"Mapping of Main category, Instrument, Accounting portfolio, Base, Controlling and non-controlling owners",DPM_BAS_CNO_MCB_MCY_APL
-ECB,DPM_SCO,Mapping of Scope of consolidation,DPM_SCO
-ECB,DPM_SOL,Mapping of Subject to operating lease (reporting entity lessor),DPM_SOL
-ECB,DPM_MCE_APL_PLD,"Mapping of Main category that generates income or expenses, Accounting portfolio, Designation (Fair value option)",DPM_MCE_APL_PLD
-ECB,DPM_BAS_MCB_MCY,"Mapping of Base, Instrument, Main category",DPM_BAS_MCB_MCY
-ECB,DPM_CNO_F_46.00,Mapping of Controlling and non-controlling owners for the template F46.00,DPM_CNO_F_46.00
 ECB,DPM_PFS_F_31.02,Mapping of Performing status for the template F31.02,DPM_PFS_F_31.02
-ECB,DPM_BAS_MCE_MCY_TYA,"Mapping of Main category, Base, Main category that generates income or expenses, Type of activity",DPM_BAS_MCE_MCY_TYA
-ECB,DPM_MCE_TYH,"Mapping of Main category that generates income or expenses, Type of hedge",DPM_MCE_TYH
-ECB,DPM_TYA,Mapping of Type of activity,DPM_TYA
-ECB,DPM_FVH,Mapping of Fair value hierarchy,DPM_FVH
-ECB,DPM_ALO_F_12.00,Mapping of Type of allowance for the template F12.00,DPM_ALO_F_12.00
-ECB,DPM_DPS,Mapping of Derivatives Purchased/Sold,DPM_DPS
-ECB,DPM_CPS_MCB_MCY_TMA_TRI,"Mapping of Main category, Counterparty sector, Type of risk, Type of market, Instrument",DPM_CPS_MCB_MCY_TMA_TRI
+ECB,DPM_PFS_TPD,"Mapping of Performing status, Time past due",DPM_PFS_TPD
+ECB,DPM_PIR,Mapping of Date / period of initial recognition,DPM_PIR
 ECB,DPM_PLD,Mapping of Designation (Fair value option),DPM_PLD
-ECB,DPM_BAS_MCB_MCY_APL,"Mapping of Base, Main category, Accounting portfolio, Instrument",DPM_BAS_MCB_MCY_APL
-ECB,DPM_CPS_CPZ_MCG_MCY_PUR,"Mapping of Main category, Counterparty sector, Size of the counterparty, Main category of collateral or guarantee received, Purpose",DPM_CPS_CPZ_MCG_MCY_PUR
-ECB,DPM_ACT,Mapping of Accounting treatment,DPM_ACT
-ECB,DPM_TRT,Mapping of Type of risk transfer,DPM_TRT
-ECB,DPM_MCT_PLT,"Mapping of Main category of the transferred financial asset to which the liability is associated to, Accounting portfolio of the transferred financial asset to which the liability is associated to",DPM_MCT_PLT
-ECB,DPM_BAS_CPS_CPZ_MCG_MCY_MCP_PUR_APL,"Mapping of Base, Main category, Main category that generates the provision, Accounting portfolio, Counterparty sector, Size of the counterparty, Main category of collateral or guarantee received, Purpose",DPM_BAS_CPS_CPZ_MCG_MCY_MCP_PUR_APL
-ECB,DPM_BAS_CPS_MCY_APL,"Mapping of Counterparty sector, Main category, Accounting portfolio, Base",DPM_BAS_CPS_MCY_APL
-ECB,DPM_IMS_PFS_TPD,"Mapping of Impairment status, Performing status, Time past due",DPM_IMS_PFS_TPD
-ECB,DPM_MCE_APL_RPR,"Mapping of Main category that generates income or expenses, Accounting portfolio, Related parties/Relationships",DPM_MCE_APL_RPR
-ECB,DPM_BAS_MCY_APL_RPR,"Mapping of Main category, Accounting portfolio, Base, Related parties/Relationships",DPM_BAS_MCY_APL_RPR
-ECB,DPM_BAS_CNO_MCB_MCF_MCY_REC,"Mapping of Base, Instrument, Main category, Controlling and non-controlling owners, To be reclassified to profit or loss, Hedged or hedging instrument",DPM_BAS_CNO_MCB_MCF_MCY_REC
-ECB,DPM_ei4,Mapping of Accounting standard,DPM_ei4
-ECB,DPM_ei207,Mapping of Reporting level,DPM_ei207
-ECB,DPM_BAS_CPS_EXC_MCG_MCY_AE_F32.01,"Mapping of Base, Exposure class, Main category of collateral or guarantee received, Main category, Counterparty sector for the template AEF32.01",DPM_BAS_CPS_EXC_MCG_MCY_AE_F32.01
-ECB,DPM_ENC_LQA_AE_F32.01,"Mapping of Encumbrance, Liquidity quality of assets for the template AEF32.01",DPM_ENC_LQA_AE_F32.01
+ECB,DPM_POV,Mapping of Date / period of valuation,DPM_POV
+ECB,DPM_PUR,Mapping of Purpose,DPM_PUR
+ECB,DPM_RCP,Mapping of Residence of counterparty,DPM_RCP
+ECB,DPM_REC,Mapping of To be reclassified to profit or loss,DPM_REC
+ECB,DPM_REF,Mapping of Reference date or period,DPM_REF
+ECB,DPM_REF_RES_AE_F35.00.a,"Mapping of Reference date or period, Residual maturity for the template AEF35.00.a",DPM_REF_RES_AE_F35.00.a
+ECB,DPM_RPR,Mapping of Related parties/Relationships,DPM_RPR
 ECB,DPM_RPR_AE,Mapping of Related parties/Relationships for the template AE,DPM_RPR_AE
-ECB,DPM_BAS_MCG_MCY_AE_F33.00.a,"Mapping of Base, Main category, Main category of collateral or guarantee received for the template AEF33.00.a",DPM_BAS_MCG_MCY_AE_F33.00.a
-ECB,DPM_ENC_AE,Mapping of Encumbrance for the template AE,DPM_ENC_AE
-ECB,DPM_EUT_AE,Mapping of Time of encumbrance for the template AE,DPM_EUT_AE
-ECB,DPM_BAS_CPC_ECC_EXC_MCG_MCY_AE_F32.02.a,"Mapping of Base, Exposure class of the collateral received, Exposure class, Main category of collateral or guarantee received, Main category, Counterparty sector of the collateral for the template AEF32.02.a",DPM_BAS_CPC_ECC_EXC_MCG_MCY_AE_F32.02.a
-ECB,DPM_TMA_AE_F32.04b,Mapping of Type of market for the template AEF32.04b,DPM_TMA_AE_F32.04b
-ECB,DPM_CPE_MCS_AE_F32.04.b,"Mapping of Counterparty sector of the source of encumbrance, Main category of the source of encumbrance for the template AEF32.04.b",DPM_CPE_MCS_AE_F32.04.b
-ECB,DPM_BAS_MCS_MCY_AE_F35.00.a,"Mapping of Base, Main category, Main category of the source of encumbrance for the template AEF35.00.a",DPM_BAS_MCS_MCY_AE_F35.00.a
-ECB,DPM_CUS_AE,Mapping of Currency with significant liabilities for the template AE,DPM_CUS_AE
-ECB,DPM_CSC_AE,Mapping of Contingent scenario/Assumptions used for the template AE,DPM_CSC_AE
-ECB,DPM_BAS_AE_F32.03.a,Mapping of Base for the template AEF32.03.a,DPM_BAS_AE_F32.03.a
-ECB,DPM_MCS_MCY_SST_AE_F32.03.a,"Mapping of Main category, Main category of the source of encumbrance, Securitisation structure for the template AEF32.03.a",DPM_MCS_MCY_SST_AE_F32.03.a
-ECB,DPM_LQC_AE_F36.02.c,Mapping of Liquidity quality of collateral received for the template AEF36.02.c,DPM_LQC_AE_F36.02.c
-ECB,DPM_LQC_AE_F32.02.a,Mapping of Liquidity quality of collateral received for the template AEF32.02.a,DPM_LQC_AE_F32.02.a
-ECB,DPM_BAS_CPE_CPS_MCS_MCY_AE_F32.04.a,"Mapping of Base, Main category, Main category of the source of encumbrance, Counterparty sector of the source of encumbrance, Counterparty sector for the template AEF32.04.a",DPM_BAS_CPE_CPS_MCS_MCY_AE_F32.04.a
-ECB,DPM_TMA_AE_F32.04a,Mapping of Type of market for the template AEF32.04a,DPM_TMA_AE_F32.04a
-ECB,DPM_CPC_ECC_MCG_AE_F36.01.b,"Mapping of Main category of collateral or guarantee received, Exposure class of the collateral received, Counterparty sector of the collateral for the template AEF36.01.b",DPM_CPC_ECC_MCG_AE_F36.01.b
 ECB,DPM_RPR_AE_F36,Mapping of Related parties/Relationships for the template AEF36,DPM_RPR_AE_F36
 ECB,DPM_SCC_AE,Mapping of Specific contract clauses or netting agreements for the template AE,DPM_SCC_AE
-ECB,DPM_CPC_ECC_MCG_AE_F36.02.b,"Mapping of Main category of collateral or guarantee received, Exposure class of the collateral received, Counterparty sector of the collateral for the template AEF36.02.b",DPM_CPC_ECC_MCG_AE_F36.02.b
-ECB,DPM_REF_RES_AE_F35.00.a,"Mapping of Reference date or period, Residual maturity for the template AEF35.00.a",DPM_REF_RES_AE_F35.00.a
-ECB,DPM_BAS_MCY_SST_AE_F32.03.b,"Mapping of Base, Main category, Securitisation structure for the template AEF32.03.b",DPM_BAS_MCY_SST_AE_F32.03.b
-ECB,DPM_ENC_AE_F32.02.a,Mapping of Encumbrance for the template AEF32.02.a,DPM_ENC_AE_F32.02.a
-ECB,DPM_LQA_AE_F32.03.b,Mapping of Liquidity quality of assets for the template AEF32.03.b,DPM_LQA_AE_F32.03.b
-ECB,DPM_BAS_CPS_EXC_MCY_AE_F36.01.a,"Mapping of Base, Counterparty sector, Exposure class, Main category for the template AEF36.01.a",DPM_BAS_CPS_EXC_MCY_AE_F36.01.a
-ECB,DPM_LQA_AE_F36.01.c,Mapping of Liquidity quality of assets for the template AEF36.01.c,DPM_LQA_AE_F36.01.c
-ECB,DPM_CRA_AE,Mapping of Credit rating agency /Covered bond regime for the template AE,DPM_CRA_AE
-ECB,DPM_BAS_CRA_AE_F35.00.c,"Mapping of Base, Credit rating agency /Covered bond regime for the template AEF35.00.c",DPM_BAS_CRA_AE_F35.00.c
-ECB,SHS_TPH,Mapping of Third Party Holdings Relevance for Aggregation for the template SHS,SHS_TPH
-ECB,SHS_ESCB,Mapping of ESCB for the template SHS,SHS_ESCB
-ECB,SHS_FREQ,Mapping of Frequency for the template SHS,SHS_FREQ
-ECB,SHS_EAPLUS,Mapping of EA plus for the template SHS,SHS_EAPLUS
-ECB,SHS_REF_AREA,Mapping of Reporting Country for the template SHS,SHS_REF_AREA
-ECB,SHS_NOM_CURR,Mapping of Nominal currency for the template SHS,SHS_NOM_CURR
-ECB,SHS_DEBT_TYPE,Mapping of Debt type for the template SHS,SHS_DEBT_TYPE
-ECB,SHS_EARLY_RED,Mapping of Early redemptions included for the template SHS,SHS_EARLY_RED
-ECB,SHS_GROUP_AREA,Mapping of Country of residence of the group for the template SHS,SHS_GROUP_AREA
-ECB,SHS_GROUP_TYPE,Mapping of Group type for the template SHS,SHS_GROUP_TYPE
-ECB,SHS_EXPSR_CLSS,Mapping of Exposure class as defined in accordance with Regulation (EU) No 575/2013 for the template SHS,SHS_EXPSR_CLSS
-ECB,SHS_IS_IN_EADB,Mapping of Is in EADB for the template SHS,SHS_IS_IN_EADB
-ECB,SHS_FRBRNC_STTS,Mapping of 	Status of forbearance and renegotiation for the template SHS,SHS_FRBRNC_STTS
-ECB,SHS_COUPON_TYPE,Mapping of Coupon type for the template SHS,SHS_COUPON_TYPE
-ECB,SHS_ENTITY_AREA,Mapping of Country of residency of the entity for the template SHS,SHS_ENTITY_AREA
-ECB,SHS_HOLDER_AREA,Mapping of Holder Country for the template SHS,SHS_HOLDER_AREA
-ECB,SHS_INSTR_CLASS,Mapping of Instrument ESA 2010 class for the template SHS,SHS_INSTR_CLASS
-ECB,SHS_IMPRMNT_STTS,Mapping of Imparement status for the template SHS,SHS_IMPRMNT_STTS
-ECB,SHS_PRFRMNG_STTS,Mapping of Performing status for the template SHS,SHS_PRFRMNG_STTS
-ECB,SHS_SRC_ENCMBRNC,Mapping of Source of encumbrance for the template SHS,SHS_SRC_ENCMBRNC
-ECB,SHS_REP_NOM_CURR,Mapping of Reported Nominal currency for the template SHS,SHS_REP_NOM_CURR
-ECB,SHS_PRDNTL_PRTFL,Mapping of Prudential portfolio for the template SHS,SHS_PRDNTL_PRTFL
-ECB,SHS_UNIT_MEASURE,Mapping of Unit for the template SHS,SHS_UNIT_MEASURE
-ECB,SHS_GROUP_SECTOR,Mapping of ESA 2010 Sector of the head of Group for the template SHS,SHS_GROUP_SECTOR
-ECB,SHS_ACCR_INTR_MV,Mapping of Accrued interests for market values for the template SHS,SHS_ACCR_INTR_MV
-ECB,SHS_ENTITY_SECTOR,Mapping of ESA 2010 sector of the entity for the template SHS,SHS_ENTITY_SECTOR
-ECB,SHS_COMPILING_ORG,Mapping of Reporting institution code for the template SHS,SHS_COMPILING_ORG
-ECB,SHS_ENTITY_STATUS,Mapping of Entity status for the template SHS,SHS_ENTITY_STATUS
-ECB,SHS_HOLDER_SECTOR,Mapping of Holder Sector for the template SHS,SHS_HOLDER_SECTOR
-ECB,SHS_ISSUER_SECTOR,Mapping of Issuer ESA 2010 sector for the template SHS,SHS_ISSUER_SECTOR
-ECB,SHS_GROUP_ID_TYPE,Mapping of Group ID type for the template SHS,SHS_GROUP_ID_TYPE
-ECB,SHS_ENTITY_ID_TYPE,Mapping of Entity ID type  for the template SHS,SHS_ENTITY_ID_TYPE
-ECB,SHS_ISSUER_ID_TYPE,Mapping of Issuer ID type for the template SHS,SHS_ISSUER_ID_TYPE
-ECB,SHS_DFLT_STTS_ISSR,Mapping of Default status of the issuer for the template SHS,SHS_DFLT_STTS_ISSR
-ECB,SHS_SENIORITY_TYPE,Mapping of Instrument seniority type for the template SHS,SHS_SENIORITY_TYPE
-ECB,SHS_ISSUER_COUNTRY,Mapping of Issuer country for the template SHS,SHS_ISSUER_COUNTRY
-ECB,SHS_IDENTIFIER_TYPE,Mapping of Identifier type for the template SHS,SHS_IDENTIFIER_TYPE
-ECB,SHS_UNIT_MEASURE_NV,Mapping of Unit for Nominal Value for the template SHS,SHS_UNIT_MEASURE_NV
-ECB,SHS_REPORTING_BASIS,Mapping of Reporting basis  for the template SHS,SHS_REPORTING_BASIS
-ECB,SHS_QUOTATION_BASIS,Mapping of Quotation basis for the template SHS,SHS_QUOTATION_BASIS
-ECB,SHS_COLLATERAL_AREA,Mapping of Collateral geographical location for the template SHS,SHS_COLLATERAL_AREA
-ECB,SHS_SECURITY_STATUS,Mapping of Security status for the template SHS,SHS_SECURITY_STATUS
-ECB,SHS_ORIG_MAT_BRACKET,Mapping of Original maturity bracket (category) for the template SHS,SHS_ORIG_MAT_BRACKET
-ECB,SHS_PRICE_VALUE_TYPE,Mapping of Price value type for the template SHS,SHS_PRICE_VALUE_TYPE
-ECB,SHS_LAST_COUPON_FREQ,Mapping of Last coupon date for the template SHS,SHS_LAST_COUPON_FREQ
-ECB,SHS_ACCNTNG_CLSSFCTN,Mapping of Accounting classification of instruments for the template SHS,SHS_ACCNTNG_CLSSFCTN
-ECB,SHS_RESID_MAT_BRACKET,Mapping of Residual maturity bracket (category) for the template SHS,SHS_RESID_MAT_BRACKET
-ECB,SHS_PRICE_VALUE_BASIS,Mapping of Price value basis for the template SHS,SHS_PRICE_VALUE_BASIS
-ECB,SHS_GUARANTOR_ID_TYPE,Mapping of Guarantor ID type for the template SHS,SHS_GUARANTOR_ID_TYPE
-ECB,SHS_DIVIDEND_CURRENCY,Mapping of Dividend currency for the template SHS,SHS_DIVIDEND_CURRENCY
-ECB,SHS_ISSUER_NACE_SECTOR,Mapping of Issuer NACE sector for the template SHS,SHS_ISSUER_NACE_SECTOR
-ECB,SHS_GROUP_ACC_STANDARD,Mapping of Accounting Standard of the Group for the template SHS,SHS_GROUP_ACC_STANDARD
-ECB,SHS_DFLT_STTS_INSTRMNT,Mapping of Default status of the instrument for the template SHS,SHS_DFLT_STTS_INSTRMNT
-ECB,SHS_PRIMARY_ASSET_CLASS,Mapping of Primary asset classification for the template SHS,SHS_PRIMARY_ASSET_CLASS
-ECB,SHS_ENTITY_ACC_STANDARD,Mapping of Accounting Standard of the entity for the template SHS,SHS_ENTITY_ACC_STANDARD
-ECB,SHS_FUNCTIONAL_CATEGORY,Mapping of Function for the template SHS,SHS_FUNCTIONAL_CATEGORY
-ECB,SHS_APPRCH_PRDNTL_PRPSS,Mapping of Approach for prudential purposes for the template SHS,SHS_APPRCH_PRDNTL_PRPSS
-ECB,SHS_DIVIDEND_AMOUNT_TYPE,Mapping of Dividend amount type for the template SHS,SHS_DIVIDEND_AMOUNT_TYPE
-ECB,SHS_IMPRMNT_ASSSSMNT_MTHD,Mapping of Impairment assessment method for the template SHS,SHS_IMPRMNT_ASSSSMNT_MTHD
-ECB,SHS_INTRA_GROUP_ACC_SCOPE,Mapping of Issuer is part of the Group (accounting scope) for the template SHS,SHS_INTRA_GROUP_ACC_SCOPE
-ECB,SHS_INTRA_GROUP_PRUD_SCOPE,Mapping of Issuer is part of the Group (prudential scope) for the template SHS,SHS_INTRA_GROUP_PRUD_SCOPE
-ECB,SHS_IMMEDIATE_PARENT_ID_TYPE,Mapping of Immediate parent ID type for the template SHS,SHS_IMMEDIATE_PARENT_ID_TYPE
-ECB,SHS_ASSET_SECURITISATION_TYPE,Mapping of Asset securitisation type for the template SHS,SHS_ASSET_SECURITISATION_TYPE
+ECB,DPM_SCO,Mapping of Scope of consolidation,DPM_SCO
+ECB,DPM_SOL,Mapping of Subject to operating lease (reporting entity lessor),DPM_SOL
+ECB,DPM_SUB,Mapping of Subordinated,DPM_SUB
+ECB,DPM_TFM,Mapping of Type of forbearance measure,DPM_TFM
+ECB,DPM_TIE,Mapping of Time elapsed since initial recognition,DPM_TIE
+ECB,DPM_TIS,Mapping of Transfer between impairment stages,DPM_TIS
+ECB,DPM_TMA,Mapping of Type of market,DPM_TMA
+ECB,DPM_TMA_AE_F32.04a,Mapping of Type of market for the template AEF32.04a,DPM_TMA_AE_F32.04a
+ECB,DPM_TMA_AE_F32.04b,Mapping of Type of market for the template AEF32.04b,DPM_TMA_AE_F32.04b
+ECB,DPM_TPD,Mapping of Time past due,DPM_TPD
+ECB,DPM_TRI,Mapping of Type of risk,DPM_TRI
+ECB,DPM_TRI_F_02.00,Mapping of Type of risk for the template F02.00,DPM_TRI_F_02.00
+ECB,DPM_TRI_F_04.03.1,Mapping of Type of risk for the template F04.03.1,DPM_TRI_F_04.03.1
+ECB,DPM_TRT,Mapping of Type of risk transfer,DPM_TRT
+ECB,DPM_TSA,Mapping of Type of staff (RF),DPM_TSA
+ECB,DPM_TYA,Mapping of Type of activity,DPM_TYA
+ECB,DPM_TYA_F_24.01,Mapping of Type of activity for the template F24.01,DPM_TYA_F_24.01
+ECB,DPM_TYH,Mapping of Type of hedge,DPM_TYH
+ECB,DPM_TYH_F_20.01,Mapping of Type of hedge for the template F20.01,DPM_TYH_F_20.01
+ECB,DPM_TYR,Mapping of Type of activity of Related parties/Relationships,DPM_TYR
+ECB,DPM_ei138,Mapping of Group structure,DPM_ei138
+ECB,DPM_ei152,Mapping of Jurisdiction of incorporation,DPM_ei152
+ECB,DPM_ei207,Mapping of Reporting level,DPM_ei207
+ECB,DPM_ei218,Mapping of Sector,DPM_ei218
+ECB,DPM_ei219,Mapping of Sector of the counterparty,DPM_ei219
+ECB,DPM_ei328,Mapping of Primary asset class of cover pool,DPM_ei328
+ECB,DPM_ei364,Mapping of Accounting consolidation code (IFRS Group),DPM_ei364
+ECB,DPM_ei365,Mapping of Accounting consolidation code (CRR Group),DPM_ei365
+ECB,DPM_ei4,Mapping of Accounting standard,DPM_ei4
